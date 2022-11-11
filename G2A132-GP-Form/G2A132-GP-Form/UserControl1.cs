@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace G2A132_GP_Form
 {
-    public partial class Form1 : Form
+    public partial class UserControl1 : UserControl
     {
-        public Form1()
+        public UserControl1()
         {
             InitializeComponent();
         }

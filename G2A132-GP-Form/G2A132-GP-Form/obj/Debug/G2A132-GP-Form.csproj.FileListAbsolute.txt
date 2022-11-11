@@ -1,0 +1,10 @@
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\G2A132-GP-Form.exe.config
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\G2A132-GP-Form.exe
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\G2A132-GP-Form.pdb
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132-GP-Form.csproj.AssemblyReference.cache
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132_GP_Form.TopPage.resources
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132_GP_Form.Properties.Resources.resources
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132-GP-Form.csproj.GenerateResource.cache
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132-GP-Form.csproj.CoreCompileInputs.cache
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132-GP-Form.exe
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132-GP-Form.pdb
