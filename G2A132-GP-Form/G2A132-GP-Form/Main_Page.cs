@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace G2A132_GP_Form
 {
-    public partial class TopPage : Form
+    public partial class Main_Page : Form
     {
-        public TopPage()
+        public Main_Page()
         {
             InitializeComponent();
         }
@@ -26,6 +26,11 @@ namespace G2A132_GP_Form
         private void picTopPageIcon_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

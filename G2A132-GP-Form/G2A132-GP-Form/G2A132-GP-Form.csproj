@@ -46,22 +46,124 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TopPage.cs">
+    <Compile Include="BuyCart_Page.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TopPage.Designer.cs">
-      <DependentUpon>TopPage.cs</DependentUpon>
+    <Compile Include="BuyCart_Page.Designer.cs">
+      <DependentUpon>BuyCart_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuyMain_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuyMain_Page.Designer.cs">
+      <DependentUpon>BuyMain_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buy_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buy_Page.Designer.cs">
+      <DependentUpon>Buy_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeList_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoticeList_Page.Designer.cs">
+      <DependentUpon>NoticeList_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product_Page.Designer.cs">
+      <DependentUpon>Product_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseCart_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseCart_Page.Designer.cs">
+      <DependentUpon>PurchaseCart_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NMCompletion_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NMCompletion_Page.Designer.cs">
+      <DependentUpon>NMCompletion_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NMCheck_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NMCheck_Page.Designer.cs">
+      <DependentUpon>NMCheck_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewMember_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewMember_Page.Designer.cs">
+      <DependentUpon>NewMember_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyPage_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyPage_Page.Designer.cs">
+      <DependentUpon>MyPage_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Page.Designer.cs">
+      <DependentUpon>Login_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Page.Designer.cs">
+      <DependentUpon>Main_Page.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControl1.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="PurchaseMain_Page.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
+    <Compile Include="PurchaseMain_Page.Designer.cs">
+      <DependentUpon>PurchaseMain_Page.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="TopPage.resx">
-      <DependentUpon>TopPage.cs</DependentUpon>
+    <Compile Include="Purchase_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase_Page.Designer.cs">
+      <DependentUpon>Purchase_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReleaseSchedule_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReleaseSchedule_Page.Designer.cs">
+      <DependentUpon>ReleaseSchedule_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RentalCart_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RentalCart_Page.Designer.cs">
+      <DependentUpon>RentalCart_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RentalMain_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RentalMain_Page.Designer.cs">
+      <DependentUpon>RentalMain_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rental_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rental_Page.Designer.cs">
+      <DependentUpon>Rental_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResult_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchResult_Page.Designer.cs">
+      <DependentUpon>SearchResult_Page.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Main_Page.resx">
+      <DependentUpon>Main_Page.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -1,7 +1,7 @@
 ﻿
 namespace G2A132_GP_Form
 {
-    partial class TopPage
+    partial class Main_Page
     {
         /// <summary>
         /// 必要なデザイナー変数です。
@@ -36,12 +36,13 @@ namespace G2A132_GP_Form
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(150, 182);
+            this.button1.Location = new System.Drawing.Point(80, 128);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(145, 37);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "ネット・お店で買う";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // picTopPageIcon
             // 
@@ -52,14 +53,14 @@ namespace G2A132_GP_Form
             this.picTopPageIcon.TabStop = false;
             this.picTopPageIcon.Click += new System.EventHandler(this.picTopPageIcon_Click);
             // 
-            // TopPage
+            // Main_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.picTopPageIcon);
             this.Controls.Add(this.button1);
-            this.Name = "TopPage";
+            this.Name = "Main_Page";
             this.Text = "TopPage";
             this.Load += new System.EventHandler(this.TopPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picTopPageIcon)).EndInit();

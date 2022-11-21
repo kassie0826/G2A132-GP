@@ -16,7 +16,7 @@ namespace G2A132_GP_Form
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TopPage());
+            Application.Run(new Main_Page());
         }
     }
 }
