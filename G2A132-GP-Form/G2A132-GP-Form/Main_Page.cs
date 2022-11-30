@@ -17,20 +17,12 @@ namespace G2A132_GP_Form
             InitializeComponent();
         }
 
-        private void TopPage_Load(object sender, EventArgs e)
+        private void MainPage_Load(object sender, EventArgs e)
         {
+            this.Size = new Size(820, 500);
+            this.MaximizeBox = false;
             picTopPageIcon.Image = Properties.Resources.text_noclaim_noreturn;
             picTopPageIcon.SizeMode = PictureBoxSizeMode.Zoom;
-        }
-
-        private void picTopPageIcon_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
