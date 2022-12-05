@@ -9,4 +9,13 @@ C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A
 C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132-GP-Form.pdb
 C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132_GP_Form.Main_Page.resources
 C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132_GP_Form.NoticeList_Page.resources
-C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132_GP_Form.Form1.resources
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\EntityFramework.dll
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\System.Data.SQLite.dll
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\EntityFramework.xml
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\System.Data.SQLite.xml
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132_GP_Form.DBProduction.resources
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132-GP-Form.csproj.CopyComplete

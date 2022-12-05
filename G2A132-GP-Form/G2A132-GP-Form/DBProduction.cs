@@ -13,6 +13,8 @@ namespace G2A132_GP_Form
 {
     public partial class DBProduction : Form
     {
+        int[] numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
         public DBProduction()
         {
             InitializeComponent();
@@ -25,16 +27,33 @@ namespace G2A132_GP_Form
 
         private void btnCreateTable_Click(object sender, EventArgs e)
         {
-            string CreateTableName = tBoxCreateTableName.Text;
-            using (var con = new SQLiteConnection($"Data Source={CreateTableName}"))
+            int[] tBoxCount = new int[9];
+            for (int i = 1, c = 1; i < 10; i++)
             {
-                con.Open();
-                using (SQLiteCommand command = con.CreateCommand())
+                if (((TextBox)Controls[$"Column{i}"]).Text != null)
                 {
-                    command.CommandText = "create table t_product(CD INTEGER   PRIMARY KEY AUTOINCREMENT, productname TEXT, price INTEGER)";
-                    command.ExecuteNonQuery();
+                    tBoxCount[c] = i;
+                    c++;
                 }
-                con.Close();
+            }
+
+            if (tBoxColumn1 != null)
+            {
+                string CreateTableName = tBoxCreateTableName.Text;
+                using (var con = new SQLiteConnection($"Data Source={CreateTableName}"))
+                {
+                    con.Open();
+                    using (SQLiteCommand command = con.CreateCommand())
+                    {
+                        command.CommandText = "create table t_product(CD INTEGER   PRIMARY KEY AUTOINCREMENT, productname TEXT, price INTEGER)";
+                        command.ExecuteNonQuery();
+                    }
+                    con.Close();
+                }
+            }
+            else
+            {
+                MessageBox.Show("値を入力してください", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
     }
