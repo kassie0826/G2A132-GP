@@ -647,6 +647,7 @@ namespace G2A132_GP_Form
             this.cBoxINTEGER1.TabIndex = 67;
             this.cBoxINTEGER1.Text = "INTEGER";
             this.cBoxINTEGER1.UseVisualStyleBackColor = true;
+            this.cBoxINTEGER1.CheckedChanged += new System.EventHandler(this.cBoxINTEGER1_CheckedChanged);
             // 
             // cBoxTEXT1
             // 

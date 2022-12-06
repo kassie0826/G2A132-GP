@@ -13,8 +13,6 @@ namespace G2A132_GP_Form
 {
     public partial class DBProduction : Form
     {
-        int[] numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-
         public DBProduction()
         {
             InitializeComponent();
@@ -37,23 +35,29 @@ namespace G2A132_GP_Form
                 }
             }
 
-            if (tBoxColumn1 != null)
+            if (tBoxCount != null)
             {
-                string CreateTableName = tBoxCreateTableName.Text;
-                using (var con = new SQLiteConnection($"Data Source={CreateTableName}"))
+                string createTableName = tBoxCreateTableName.Text;
+                string createTableColumn = null;
+                string[] tBoxText = new string[9];
+                foreach (int num in tBoxCount)
+                {
+                    createTableColumn += (((TextBox)Controls[$"Column{tBoxCount[num]}"]).Text) + " " + "text int" + ",";
+                }
+                using (var con = new SQLiteConnection($"Data Source={createTableName}"))
                 {
                     con.Open();
                     using (SQLiteCommand command = con.CreateCommand())
                     {
-                        command.CommandText = "create table t_product(CD INTEGER   PRIMARY KEY AUTOINCREMENT, productname TEXT, price INTEGER)";
+                        command.CommandText = $"create table t_product()";
                         command.ExecuteNonQuery();
                     }
                     con.Close();
                 }
             }
-            else
+            else if (tBoxCount == null)
             {
-                MessageBox.Show("値を入力してください", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("列名を入力してください", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
     }
