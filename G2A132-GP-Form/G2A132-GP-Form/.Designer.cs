@@ -93,25 +93,43 @@ namespace G2A132_GP_Form
             this.tBoxColumn9 = new System.Windows.Forms.TextBox();
             this.labColumn8 = new System.Windows.Forms.Label();
             this.labColumn9 = new System.Windows.Forms.Label();
-            this.cBoxINTEGER1 = new System.Windows.Forms.CheckBox();
-            this.cBoxTEXT1 = new System.Windows.Forms.CheckBox();
-            this.cBoxTEXT4 = new System.Windows.Forms.CheckBox();
-            this.cBoxINTEGER4 = new System.Windows.Forms.CheckBox();
-            this.cBoxTEXT7 = new System.Windows.Forms.CheckBox();
-            this.cBoxINTEGER7 = new System.Windows.Forms.CheckBox();
-            this.cBoxTEXT2 = new System.Windows.Forms.CheckBox();
-            this.cBoxINTEGER2 = new System.Windows.Forms.CheckBox();
-            this.cBoxTEXT5 = new System.Windows.Forms.CheckBox();
-            this.cBoxINTEGER5 = new System.Windows.Forms.CheckBox();
-            this.cBoxTEXT8 = new System.Windows.Forms.CheckBox();
-            this.cBoxINTEGER8 = new System.Windows.Forms.CheckBox();
-            this.cBoxTEXT3 = new System.Windows.Forms.CheckBox();
-            this.cBoxINTEGER3 = new System.Windows.Forms.CheckBox();
-            this.cBoxTEXT6 = new System.Windows.Forms.CheckBox();
-            this.cBoxINTEGER6 = new System.Windows.Forms.CheckBox();
-            this.cBoxTEXT9 = new System.Windows.Forms.CheckBox();
-            this.cBoxINTEGER9 = new System.Windows.Forms.CheckBox();
+            this.rButtonINTEGER1 = new System.Windows.Forms.RadioButton();
+            this.rButtonTEXT1 = new System.Windows.Forms.RadioButton();
+            this.panSelectIT1 = new System.Windows.Forms.Panel();
+            this.panSelectIT7 = new System.Windows.Forms.Panel();
+            this.rButtonTEXT7 = new System.Windows.Forms.RadioButton();
+            this.rButtonINTEGER7 = new System.Windows.Forms.RadioButton();
+            this.panSelectIT4 = new System.Windows.Forms.Panel();
+            this.rButtonTEXT4 = new System.Windows.Forms.RadioButton();
+            this.rButtonINTEGER4 = new System.Windows.Forms.RadioButton();
+            this.panSelectIT2 = new System.Windows.Forms.Panel();
+            this.rButtonTEXT2 = new System.Windows.Forms.RadioButton();
+            this.rButtonINTEGER2 = new System.Windows.Forms.RadioButton();
+            this.panSelectIT5 = new System.Windows.Forms.Panel();
+            this.rButtonTEXT5 = new System.Windows.Forms.RadioButton();
+            this.rButtonINTEGER5 = new System.Windows.Forms.RadioButton();
+            this.panSelectIT8 = new System.Windows.Forms.Panel();
+            this.rButtonTEXT8 = new System.Windows.Forms.RadioButton();
+            this.rButtonINTEGER8 = new System.Windows.Forms.RadioButton();
+            this.panSelectIT3 = new System.Windows.Forms.Panel();
+            this.rButtonTEXT3 = new System.Windows.Forms.RadioButton();
+            this.rButtonINTEGER3 = new System.Windows.Forms.RadioButton();
+            this.panSelectIT6 = new System.Windows.Forms.Panel();
+            this.rButtonTEXT6 = new System.Windows.Forms.RadioButton();
+            this.rButtonINTEGER6 = new System.Windows.Forms.RadioButton();
+            this.panSelectIT9 = new System.Windows.Forms.Panel();
+            this.rButtonTEXT9 = new System.Windows.Forms.RadioButton();
+            this.rButtonINTEGER9 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.TableGridView)).BeginInit();
+            this.panSelectIT1.SuspendLayout();
+            this.panSelectIT7.SuspendLayout();
+            this.panSelectIT4.SuspendLayout();
+            this.panSelectIT2.SuspendLayout();
+            this.panSelectIT5.SuspendLayout();
+            this.panSelectIT8.SuspendLayout();
+            this.panSelectIT3.SuspendLayout();
+            this.panSelectIT6.SuspendLayout();
+            this.panSelectIT9.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCreateTable
@@ -638,210 +656,299 @@ namespace G2A132_GP_Form
             this.labColumn9.TabIndex = 46;
             this.labColumn9.Text = "列名9";
             // 
-            // cBoxINTEGER1
+            // rButtonINTEGER1
             // 
-            this.cBoxINTEGER1.AutoSize = true;
-            this.cBoxINTEGER1.Location = new System.Drawing.Point(415, 12);
-            this.cBoxINTEGER1.Name = "cBoxINTEGER1";
-            this.cBoxINTEGER1.Size = new System.Drawing.Size(87, 19);
-            this.cBoxINTEGER1.TabIndex = 67;
-            this.cBoxINTEGER1.Text = "INTEGER";
-            this.cBoxINTEGER1.UseVisualStyleBackColor = true;
-            this.cBoxINTEGER1.CheckedChanged += new System.EventHandler(this.cBoxINTEGER1_CheckedChanged);
+            this.rButtonINTEGER1.AutoSize = true;
+            this.rButtonINTEGER1.Location = new System.Drawing.Point(2, 3);
+            this.rButtonINTEGER1.Name = "rButtonINTEGER1";
+            this.rButtonINTEGER1.Size = new System.Drawing.Size(86, 19);
+            this.rButtonINTEGER1.TabIndex = 67;
+            this.rButtonINTEGER1.TabStop = true;
+            this.rButtonINTEGER1.Text = "INTEGER";
+            this.rButtonINTEGER1.UseVisualStyleBackColor = true;
             // 
-            // cBoxTEXT1
+            // rButtonTEXT1
             // 
-            this.cBoxTEXT1.AutoSize = true;
-            this.cBoxTEXT1.Location = new System.Drawing.Point(415, 33);
-            this.cBoxTEXT1.Name = "cBoxTEXT1";
-            this.cBoxTEXT1.Size = new System.Drawing.Size(64, 19);
-            this.cBoxTEXT1.TabIndex = 68;
-            this.cBoxTEXT1.Text = "TEXT";
-            this.cBoxTEXT1.UseVisualStyleBackColor = true;
+            this.rButtonTEXT1.AutoSize = true;
+            this.rButtonTEXT1.Location = new System.Drawing.Point(2, 21);
+            this.rButtonTEXT1.Name = "rButtonTEXT1";
+            this.rButtonTEXT1.Size = new System.Drawing.Size(63, 19);
+            this.rButtonTEXT1.TabIndex = 68;
+            this.rButtonTEXT1.TabStop = true;
+            this.rButtonTEXT1.Text = "TEXT";
+            this.rButtonTEXT1.UseVisualStyleBackColor = true;
             // 
-            // cBoxTEXT4
+            // panSelectIT1
             // 
-            this.cBoxTEXT4.AutoSize = true;
-            this.cBoxTEXT4.Location = new System.Drawing.Point(415, 98);
-            this.cBoxTEXT4.Name = "cBoxTEXT4";
-            this.cBoxTEXT4.Size = new System.Drawing.Size(64, 19);
-            this.cBoxTEXT4.TabIndex = 70;
-            this.cBoxTEXT4.Text = "TEXT";
-            this.cBoxTEXT4.UseVisualStyleBackColor = true;
+            this.panSelectIT1.Controls.Add(this.rButtonTEXT1);
+            this.panSelectIT1.Controls.Add(this.rButtonINTEGER1);
+            this.panSelectIT1.Location = new System.Drawing.Point(411, 7);
+            this.panSelectIT1.Name = "panSelectIT1";
+            this.panSelectIT1.Size = new System.Drawing.Size(91, 45);
+            this.panSelectIT1.TabIndex = 69;
             // 
-            // cBoxINTEGER4
+            // panSelectIT7
             // 
-            this.cBoxINTEGER4.AutoSize = true;
-            this.cBoxINTEGER4.Location = new System.Drawing.Point(415, 77);
-            this.cBoxINTEGER4.Name = "cBoxINTEGER4";
-            this.cBoxINTEGER4.Size = new System.Drawing.Size(87, 19);
-            this.cBoxINTEGER4.TabIndex = 69;
-            this.cBoxINTEGER4.Text = "INTEGER";
-            this.cBoxINTEGER4.UseVisualStyleBackColor = true;
+            this.panSelectIT7.Controls.Add(this.rButtonTEXT7);
+            this.panSelectIT7.Controls.Add(this.rButtonINTEGER7);
+            this.panSelectIT7.Location = new System.Drawing.Point(411, 133);
+            this.panSelectIT7.Name = "panSelectIT7";
+            this.panSelectIT7.Size = new System.Drawing.Size(91, 45);
+            this.panSelectIT7.TabIndex = 70;
             // 
-            // cBoxTEXT7
+            // rButtonTEXT7
             // 
-            this.cBoxTEXT7.AutoSize = true;
-            this.cBoxTEXT7.Location = new System.Drawing.Point(415, 159);
-            this.cBoxTEXT7.Name = "cBoxTEXT7";
-            this.cBoxTEXT7.Size = new System.Drawing.Size(64, 19);
-            this.cBoxTEXT7.TabIndex = 72;
-            this.cBoxTEXT7.Text = "TEXT";
-            this.cBoxTEXT7.UseVisualStyleBackColor = true;
+            this.rButtonTEXT7.AutoSize = true;
+            this.rButtonTEXT7.Location = new System.Drawing.Point(2, 21);
+            this.rButtonTEXT7.Name = "rButtonTEXT7";
+            this.rButtonTEXT7.Size = new System.Drawing.Size(63, 19);
+            this.rButtonTEXT7.TabIndex = 68;
+            this.rButtonTEXT7.TabStop = true;
+            this.rButtonTEXT7.Text = "TEXT";
+            this.rButtonTEXT7.UseVisualStyleBackColor = true;
             // 
-            // cBoxINTEGER7
+            // rButtonINTEGER7
             // 
-            this.cBoxINTEGER7.AutoSize = true;
-            this.cBoxINTEGER7.Location = new System.Drawing.Point(415, 138);
-            this.cBoxINTEGER7.Name = "cBoxINTEGER7";
-            this.cBoxINTEGER7.Size = new System.Drawing.Size(87, 19);
-            this.cBoxINTEGER7.TabIndex = 71;
-            this.cBoxINTEGER7.Text = "INTEGER";
-            this.cBoxINTEGER7.UseVisualStyleBackColor = true;
+            this.rButtonINTEGER7.AutoSize = true;
+            this.rButtonINTEGER7.Location = new System.Drawing.Point(2, 3);
+            this.rButtonINTEGER7.Name = "rButtonINTEGER7";
+            this.rButtonINTEGER7.Size = new System.Drawing.Size(86, 19);
+            this.rButtonINTEGER7.TabIndex = 67;
+            this.rButtonINTEGER7.TabStop = true;
+            this.rButtonINTEGER7.Text = "INTEGER";
+            this.rButtonINTEGER7.UseVisualStyleBackColor = true;
             // 
-            // cBoxTEXT2
+            // panSelectIT4
             // 
-            this.cBoxTEXT2.AutoSize = true;
-            this.cBoxTEXT2.Location = new System.Drawing.Point(725, 33);
-            this.cBoxTEXT2.Name = "cBoxTEXT2";
-            this.cBoxTEXT2.Size = new System.Drawing.Size(64, 19);
-            this.cBoxTEXT2.TabIndex = 74;
-            this.cBoxTEXT2.Text = "TEXT";
-            this.cBoxTEXT2.UseVisualStyleBackColor = true;
+            this.panSelectIT4.Controls.Add(this.rButtonTEXT4);
+            this.panSelectIT4.Controls.Add(this.rButtonINTEGER4);
+            this.panSelectIT4.Location = new System.Drawing.Point(411, 70);
+            this.panSelectIT4.Name = "panSelectIT4";
+            this.panSelectIT4.Size = new System.Drawing.Size(91, 45);
+            this.panSelectIT4.TabIndex = 71;
             // 
-            // cBoxINTEGER2
+            // rButtonTEXT4
             // 
-            this.cBoxINTEGER2.AutoSize = true;
-            this.cBoxINTEGER2.Location = new System.Drawing.Point(725, 12);
-            this.cBoxINTEGER2.Name = "cBoxINTEGER2";
-            this.cBoxINTEGER2.Size = new System.Drawing.Size(87, 19);
-            this.cBoxINTEGER2.TabIndex = 73;
-            this.cBoxINTEGER2.Text = "INTEGER";
-            this.cBoxINTEGER2.UseVisualStyleBackColor = true;
+            this.rButtonTEXT4.AutoSize = true;
+            this.rButtonTEXT4.Location = new System.Drawing.Point(2, 21);
+            this.rButtonTEXT4.Name = "rButtonTEXT4";
+            this.rButtonTEXT4.Size = new System.Drawing.Size(63, 19);
+            this.rButtonTEXT4.TabIndex = 68;
+            this.rButtonTEXT4.TabStop = true;
+            this.rButtonTEXT4.Text = "TEXT";
+            this.rButtonTEXT4.UseVisualStyleBackColor = true;
             // 
-            // cBoxTEXT5
+            // rButtonINTEGER4
             // 
-            this.cBoxTEXT5.AutoSize = true;
-            this.cBoxTEXT5.Location = new System.Drawing.Point(725, 98);
-            this.cBoxTEXT5.Name = "cBoxTEXT5";
-            this.cBoxTEXT5.Size = new System.Drawing.Size(64, 19);
-            this.cBoxTEXT5.TabIndex = 76;
-            this.cBoxTEXT5.Text = "TEXT";
-            this.cBoxTEXT5.UseVisualStyleBackColor = true;
+            this.rButtonINTEGER4.AutoSize = true;
+            this.rButtonINTEGER4.Location = new System.Drawing.Point(2, 3);
+            this.rButtonINTEGER4.Name = "rButtonINTEGER4";
+            this.rButtonINTEGER4.Size = new System.Drawing.Size(86, 19);
+            this.rButtonINTEGER4.TabIndex = 67;
+            this.rButtonINTEGER4.TabStop = true;
+            this.rButtonINTEGER4.Text = "INTEGER";
+            this.rButtonINTEGER4.UseVisualStyleBackColor = true;
             // 
-            // cBoxINTEGER5
+            // panSelectIT2
             // 
-            this.cBoxINTEGER5.AutoSize = true;
-            this.cBoxINTEGER5.Location = new System.Drawing.Point(725, 77);
-            this.cBoxINTEGER5.Name = "cBoxINTEGER5";
-            this.cBoxINTEGER5.Size = new System.Drawing.Size(87, 19);
-            this.cBoxINTEGER5.TabIndex = 75;
-            this.cBoxINTEGER5.Text = "INTEGER";
-            this.cBoxINTEGER5.UseVisualStyleBackColor = true;
+            this.panSelectIT2.Controls.Add(this.rButtonTEXT2);
+            this.panSelectIT2.Controls.Add(this.rButtonINTEGER2);
+            this.panSelectIT2.Location = new System.Drawing.Point(724, 7);
+            this.panSelectIT2.Name = "panSelectIT2";
+            this.panSelectIT2.Size = new System.Drawing.Size(91, 45);
+            this.panSelectIT2.TabIndex = 72;
             // 
-            // cBoxTEXT8
+            // rButtonTEXT2
             // 
-            this.cBoxTEXT8.AutoSize = true;
-            this.cBoxTEXT8.Location = new System.Drawing.Point(725, 158);
-            this.cBoxTEXT8.Name = "cBoxTEXT8";
-            this.cBoxTEXT8.Size = new System.Drawing.Size(64, 19);
-            this.cBoxTEXT8.TabIndex = 78;
-            this.cBoxTEXT8.Text = "TEXT";
-            this.cBoxTEXT8.UseVisualStyleBackColor = true;
+            this.rButtonTEXT2.AutoSize = true;
+            this.rButtonTEXT2.Location = new System.Drawing.Point(2, 21);
+            this.rButtonTEXT2.Name = "rButtonTEXT2";
+            this.rButtonTEXT2.Size = new System.Drawing.Size(63, 19);
+            this.rButtonTEXT2.TabIndex = 68;
+            this.rButtonTEXT2.TabStop = true;
+            this.rButtonTEXT2.Text = "TEXT";
+            this.rButtonTEXT2.UseVisualStyleBackColor = true;
             // 
-            // cBoxINTEGER8
+            // rButtonINTEGER2
             // 
-            this.cBoxINTEGER8.AutoSize = true;
-            this.cBoxINTEGER8.Location = new System.Drawing.Point(725, 137);
-            this.cBoxINTEGER8.Name = "cBoxINTEGER8";
-            this.cBoxINTEGER8.Size = new System.Drawing.Size(87, 19);
-            this.cBoxINTEGER8.TabIndex = 77;
-            this.cBoxINTEGER8.Text = "INTEGER";
-            this.cBoxINTEGER8.UseVisualStyleBackColor = true;
+            this.rButtonINTEGER2.AutoSize = true;
+            this.rButtonINTEGER2.Location = new System.Drawing.Point(2, 3);
+            this.rButtonINTEGER2.Name = "rButtonINTEGER2";
+            this.rButtonINTEGER2.Size = new System.Drawing.Size(86, 19);
+            this.rButtonINTEGER2.TabIndex = 67;
+            this.rButtonINTEGER2.TabStop = true;
+            this.rButtonINTEGER2.Text = "INTEGER";
+            this.rButtonINTEGER2.UseVisualStyleBackColor = true;
             // 
-            // cBoxTEXT3
+            // panSelectIT5
             // 
-            this.cBoxTEXT3.AutoSize = true;
-            this.cBoxTEXT3.Location = new System.Drawing.Point(1042, 33);
-            this.cBoxTEXT3.Name = "cBoxTEXT3";
-            this.cBoxTEXT3.Size = new System.Drawing.Size(64, 19);
-            this.cBoxTEXT3.TabIndex = 80;
-            this.cBoxTEXT3.Text = "TEXT";
-            this.cBoxTEXT3.UseVisualStyleBackColor = true;
+            this.panSelectIT5.Controls.Add(this.rButtonTEXT5);
+            this.panSelectIT5.Controls.Add(this.rButtonINTEGER5);
+            this.panSelectIT5.Location = new System.Drawing.Point(728, 70);
+            this.panSelectIT5.Name = "panSelectIT5";
+            this.panSelectIT5.Size = new System.Drawing.Size(91, 45);
+            this.panSelectIT5.TabIndex = 73;
             // 
-            // cBoxINTEGER3
+            // rButtonTEXT5
             // 
-            this.cBoxINTEGER3.AutoSize = true;
-            this.cBoxINTEGER3.Location = new System.Drawing.Point(1042, 12);
-            this.cBoxINTEGER3.Name = "cBoxINTEGER3";
-            this.cBoxINTEGER3.Size = new System.Drawing.Size(87, 19);
-            this.cBoxINTEGER3.TabIndex = 79;
-            this.cBoxINTEGER3.Text = "INTEGER";
-            this.cBoxINTEGER3.UseVisualStyleBackColor = true;
+            this.rButtonTEXT5.AutoSize = true;
+            this.rButtonTEXT5.Location = new System.Drawing.Point(2, 21);
+            this.rButtonTEXT5.Name = "rButtonTEXT5";
+            this.rButtonTEXT5.Size = new System.Drawing.Size(63, 19);
+            this.rButtonTEXT5.TabIndex = 68;
+            this.rButtonTEXT5.TabStop = true;
+            this.rButtonTEXT5.Text = "TEXT";
+            this.rButtonTEXT5.UseVisualStyleBackColor = true;
             // 
-            // cBoxTEXT6
+            // rButtonINTEGER5
             // 
-            this.cBoxTEXT6.AutoSize = true;
-            this.cBoxTEXT6.Location = new System.Drawing.Point(1042, 98);
-            this.cBoxTEXT6.Name = "cBoxTEXT6";
-            this.cBoxTEXT6.Size = new System.Drawing.Size(64, 19);
-            this.cBoxTEXT6.TabIndex = 82;
-            this.cBoxTEXT6.Text = "TEXT";
-            this.cBoxTEXT6.UseVisualStyleBackColor = true;
+            this.rButtonINTEGER5.AutoSize = true;
+            this.rButtonINTEGER5.Location = new System.Drawing.Point(2, 3);
+            this.rButtonINTEGER5.Name = "rButtonINTEGER5";
+            this.rButtonINTEGER5.Size = new System.Drawing.Size(86, 19);
+            this.rButtonINTEGER5.TabIndex = 67;
+            this.rButtonINTEGER5.TabStop = true;
+            this.rButtonINTEGER5.Text = "INTEGER";
+            this.rButtonINTEGER5.UseVisualStyleBackColor = true;
             // 
-            // cBoxINTEGER6
+            // panSelectIT8
             // 
-            this.cBoxINTEGER6.AutoSize = true;
-            this.cBoxINTEGER6.Location = new System.Drawing.Point(1042, 77);
-            this.cBoxINTEGER6.Name = "cBoxINTEGER6";
-            this.cBoxINTEGER6.Size = new System.Drawing.Size(87, 19);
-            this.cBoxINTEGER6.TabIndex = 81;
-            this.cBoxINTEGER6.Text = "INTEGER";
-            this.cBoxINTEGER6.UseVisualStyleBackColor = true;
+            this.panSelectIT8.Controls.Add(this.rButtonTEXT8);
+            this.panSelectIT8.Controls.Add(this.rButtonINTEGER8);
+            this.panSelectIT8.Location = new System.Drawing.Point(726, 133);
+            this.panSelectIT8.Name = "panSelectIT8";
+            this.panSelectIT8.Size = new System.Drawing.Size(91, 45);
+            this.panSelectIT8.TabIndex = 70;
             // 
-            // cBoxTEXT9
+            // rButtonTEXT8
             // 
-            this.cBoxTEXT9.AutoSize = true;
-            this.cBoxTEXT9.Location = new System.Drawing.Point(1042, 159);
-            this.cBoxTEXT9.Name = "cBoxTEXT9";
-            this.cBoxTEXT9.Size = new System.Drawing.Size(64, 19);
-            this.cBoxTEXT9.TabIndex = 84;
-            this.cBoxTEXT9.Text = "TEXT";
-            this.cBoxTEXT9.UseVisualStyleBackColor = true;
+            this.rButtonTEXT8.AutoSize = true;
+            this.rButtonTEXT8.Location = new System.Drawing.Point(2, 21);
+            this.rButtonTEXT8.Name = "rButtonTEXT8";
+            this.rButtonTEXT8.Size = new System.Drawing.Size(63, 19);
+            this.rButtonTEXT8.TabIndex = 68;
+            this.rButtonTEXT8.TabStop = true;
+            this.rButtonTEXT8.Text = "TEXT";
+            this.rButtonTEXT8.UseVisualStyleBackColor = true;
             // 
-            // cBoxINTEGER9
+            // rButtonINTEGER8
             // 
-            this.cBoxINTEGER9.AutoSize = true;
-            this.cBoxINTEGER9.Location = new System.Drawing.Point(1042, 138);
-            this.cBoxINTEGER9.Name = "cBoxINTEGER9";
-            this.cBoxINTEGER9.Size = new System.Drawing.Size(87, 19);
-            this.cBoxINTEGER9.TabIndex = 83;
-            this.cBoxINTEGER9.Text = "INTEGER";
-            this.cBoxINTEGER9.UseVisualStyleBackColor = true;
+            this.rButtonINTEGER8.AutoSize = true;
+            this.rButtonINTEGER8.Location = new System.Drawing.Point(2, 3);
+            this.rButtonINTEGER8.Name = "rButtonINTEGER8";
+            this.rButtonINTEGER8.Size = new System.Drawing.Size(86, 19);
+            this.rButtonINTEGER8.TabIndex = 67;
+            this.rButtonINTEGER8.TabStop = true;
+            this.rButtonINTEGER8.Text = "INTEGER";
+            this.rButtonINTEGER8.UseVisualStyleBackColor = true;
+            // 
+            // panSelectIT3
+            // 
+            this.panSelectIT3.Controls.Add(this.rButtonTEXT3);
+            this.panSelectIT3.Controls.Add(this.rButtonINTEGER3);
+            this.panSelectIT3.Location = new System.Drawing.Point(1041, 12);
+            this.panSelectIT3.Name = "panSelectIT3";
+            this.panSelectIT3.Size = new System.Drawing.Size(91, 45);
+            this.panSelectIT3.TabIndex = 74;
+            // 
+            // rButtonTEXT3
+            // 
+            this.rButtonTEXT3.AutoSize = true;
+            this.rButtonTEXT3.Location = new System.Drawing.Point(2, 21);
+            this.rButtonTEXT3.Name = "rButtonTEXT3";
+            this.rButtonTEXT3.Size = new System.Drawing.Size(63, 19);
+            this.rButtonTEXT3.TabIndex = 68;
+            this.rButtonTEXT3.TabStop = true;
+            this.rButtonTEXT3.Text = "TEXT";
+            this.rButtonTEXT3.UseVisualStyleBackColor = true;
+            // 
+            // rButtonINTEGER3
+            // 
+            this.rButtonINTEGER3.AutoSize = true;
+            this.rButtonINTEGER3.Location = new System.Drawing.Point(2, 3);
+            this.rButtonINTEGER3.Name = "rButtonINTEGER3";
+            this.rButtonINTEGER3.Size = new System.Drawing.Size(86, 19);
+            this.rButtonINTEGER3.TabIndex = 67;
+            this.rButtonINTEGER3.TabStop = true;
+            this.rButtonINTEGER3.Text = "INTEGER";
+            this.rButtonINTEGER3.UseVisualStyleBackColor = true;
+            // 
+            // panSelectIT6
+            // 
+            this.panSelectIT6.Controls.Add(this.rButtonTEXT6);
+            this.panSelectIT6.Controls.Add(this.rButtonINTEGER6);
+            this.panSelectIT6.Location = new System.Drawing.Point(1041, 70);
+            this.panSelectIT6.Name = "panSelectIT6";
+            this.panSelectIT6.Size = new System.Drawing.Size(91, 45);
+            this.panSelectIT6.TabIndex = 70;
+            // 
+            // rButtonTEXT6
+            // 
+            this.rButtonTEXT6.AutoSize = true;
+            this.rButtonTEXT6.Location = new System.Drawing.Point(2, 21);
+            this.rButtonTEXT6.Name = "rButtonTEXT6";
+            this.rButtonTEXT6.Size = new System.Drawing.Size(63, 19);
+            this.rButtonTEXT6.TabIndex = 68;
+            this.rButtonTEXT6.TabStop = true;
+            this.rButtonTEXT6.Text = "TEXT";
+            this.rButtonTEXT6.UseVisualStyleBackColor = true;
+            // 
+            // rButtonINTEGER6
+            // 
+            this.rButtonINTEGER6.AutoSize = true;
+            this.rButtonINTEGER6.Location = new System.Drawing.Point(2, 3);
+            this.rButtonINTEGER6.Name = "rButtonINTEGER6";
+            this.rButtonINTEGER6.Size = new System.Drawing.Size(86, 19);
+            this.rButtonINTEGER6.TabIndex = 67;
+            this.rButtonINTEGER6.TabStop = true;
+            this.rButtonINTEGER6.Text = "INTEGER";
+            this.rButtonINTEGER6.UseVisualStyleBackColor = true;
+            // 
+            // panSelectIT9
+            // 
+            this.panSelectIT9.Controls.Add(this.rButtonTEXT9);
+            this.panSelectIT9.Controls.Add(this.rButtonINTEGER9);
+            this.panSelectIT9.Location = new System.Drawing.Point(1041, 133);
+            this.panSelectIT9.Name = "panSelectIT9";
+            this.panSelectIT9.Size = new System.Drawing.Size(91, 45);
+            this.panSelectIT9.TabIndex = 75;
+            // 
+            // rButtonTEXT9
+            // 
+            this.rButtonTEXT9.AutoSize = true;
+            this.rButtonTEXT9.Location = new System.Drawing.Point(2, 21);
+            this.rButtonTEXT9.Name = "rButtonTEXT9";
+            this.rButtonTEXT9.Size = new System.Drawing.Size(63, 19);
+            this.rButtonTEXT9.TabIndex = 68;
+            this.rButtonTEXT9.TabStop = true;
+            this.rButtonTEXT9.Text = "TEXT";
+            this.rButtonTEXT9.UseVisualStyleBackColor = true;
+            // 
+            // rButtonINTEGER9
+            // 
+            this.rButtonINTEGER9.AutoSize = true;
+            this.rButtonINTEGER9.Location = new System.Drawing.Point(2, 3);
+            this.rButtonINTEGER9.Name = "rButtonINTEGER9";
+            this.rButtonINTEGER9.Size = new System.Drawing.Size(86, 19);
+            this.rButtonINTEGER9.TabIndex = 67;
+            this.rButtonINTEGER9.TabStop = true;
+            this.rButtonINTEGER9.Text = "INTEGER";
+            this.rButtonINTEGER9.UseVisualStyleBackColor = true;
             // 
             // DBProduction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1332, 903);
-            this.Controls.Add(this.cBoxTEXT9);
-            this.Controls.Add(this.cBoxINTEGER9);
-            this.Controls.Add(this.cBoxTEXT6);
-            this.Controls.Add(this.cBoxINTEGER6);
-            this.Controls.Add(this.cBoxTEXT3);
-            this.Controls.Add(this.cBoxINTEGER3);
-            this.Controls.Add(this.cBoxTEXT8);
-            this.Controls.Add(this.cBoxINTEGER8);
-            this.Controls.Add(this.cBoxTEXT5);
-            this.Controls.Add(this.cBoxINTEGER5);
-            this.Controls.Add(this.cBoxTEXT2);
-            this.Controls.Add(this.cBoxINTEGER2);
-            this.Controls.Add(this.cBoxTEXT7);
-            this.Controls.Add(this.cBoxINTEGER7);
-            this.Controls.Add(this.cBoxTEXT4);
-            this.Controls.Add(this.cBoxINTEGER4);
-            this.Controls.Add(this.cBoxTEXT1);
-            this.Controls.Add(this.cBoxINTEGER1);
+            this.Controls.Add(this.panSelectIT8);
+            this.Controls.Add(this.panSelectIT6);
+            this.Controls.Add(this.panSelectIT9);
+            this.Controls.Add(this.panSelectIT3);
+            this.Controls.Add(this.panSelectIT5);
+            this.Controls.Add(this.panSelectIT2);
+            this.Controls.Add(this.panSelectIT4);
+            this.Controls.Add(this.panSelectIT7);
+            this.Controls.Add(this.panSelectIT1);
             this.Controls.Add(this.tBoxInsertTableName);
             this.Controls.Add(this.labInsertTableName);
             this.Controls.Add(this.textBox24);
@@ -910,6 +1017,24 @@ namespace G2A132_GP_Form
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.DBProduction_Load);
             ((System.ComponentModel.ISupportInitialize)(this.TableGridView)).EndInit();
+            this.panSelectIT1.ResumeLayout(false);
+            this.panSelectIT1.PerformLayout();
+            this.panSelectIT7.ResumeLayout(false);
+            this.panSelectIT7.PerformLayout();
+            this.panSelectIT4.ResumeLayout(false);
+            this.panSelectIT4.PerformLayout();
+            this.panSelectIT2.ResumeLayout(false);
+            this.panSelectIT2.PerformLayout();
+            this.panSelectIT5.ResumeLayout(false);
+            this.panSelectIT5.PerformLayout();
+            this.panSelectIT8.ResumeLayout(false);
+            this.panSelectIT8.PerformLayout();
+            this.panSelectIT3.ResumeLayout(false);
+            this.panSelectIT3.PerformLayout();
+            this.panSelectIT6.ResumeLayout(false);
+            this.panSelectIT6.PerformLayout();
+            this.panSelectIT9.ResumeLayout(false);
+            this.panSelectIT9.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -981,23 +1106,32 @@ namespace G2A132_GP_Form
         private System.Windows.Forms.TextBox tBoxColumn9;
         private System.Windows.Forms.Label labColumn8;
         private System.Windows.Forms.Label labColumn9;
-        private System.Windows.Forms.CheckBox cBoxINTEGER1;
-        private System.Windows.Forms.CheckBox cBoxTEXT1;
-        private System.Windows.Forms.CheckBox cBoxTEXT4;
-        private System.Windows.Forms.CheckBox cBoxINTEGER4;
-        private System.Windows.Forms.CheckBox cBoxTEXT7;
-        private System.Windows.Forms.CheckBox cBoxINTEGER7;
-        private System.Windows.Forms.CheckBox cBoxTEXT2;
-        private System.Windows.Forms.CheckBox cBoxINTEGER2;
-        private System.Windows.Forms.CheckBox cBoxTEXT5;
-        private System.Windows.Forms.CheckBox cBoxINTEGER5;
-        private System.Windows.Forms.CheckBox cBoxTEXT8;
-        private System.Windows.Forms.CheckBox cBoxINTEGER8;
-        private System.Windows.Forms.CheckBox cBoxTEXT3;
-        private System.Windows.Forms.CheckBox cBoxINTEGER3;
-        private System.Windows.Forms.CheckBox cBoxTEXT6;
-        private System.Windows.Forms.CheckBox cBoxINTEGER6;
-        private System.Windows.Forms.CheckBox cBoxTEXT9;
-        private System.Windows.Forms.CheckBox cBoxINTEGER9;
+        private System.Windows.Forms.RadioButton rButtonINTEGER1;
+        private System.Windows.Forms.RadioButton rButtonTEXT1;
+        private System.Windows.Forms.Panel panSelectIT1;
+        private System.Windows.Forms.Panel panSelectIT7;
+        private System.Windows.Forms.RadioButton rButtonTEXT7;
+        private System.Windows.Forms.RadioButton rButtonINTEGER7;
+        private System.Windows.Forms.Panel panSelectIT4;
+        private System.Windows.Forms.RadioButton rButtonTEXT4;
+        private System.Windows.Forms.RadioButton rButtonINTEGER4;
+        private System.Windows.Forms.Panel panSelectIT2;
+        private System.Windows.Forms.RadioButton rButtonTEXT2;
+        private System.Windows.Forms.RadioButton rButtonINTEGER2;
+        private System.Windows.Forms.Panel panSelectIT5;
+        private System.Windows.Forms.RadioButton rButtonTEXT5;
+        private System.Windows.Forms.RadioButton rButtonINTEGER5;
+        private System.Windows.Forms.Panel panSelectIT8;
+        private System.Windows.Forms.RadioButton rButtonTEXT8;
+        private System.Windows.Forms.RadioButton rButtonINTEGER8;
+        private System.Windows.Forms.Panel panSelectIT3;
+        private System.Windows.Forms.RadioButton rButtonTEXT3;
+        private System.Windows.Forms.RadioButton rButtonINTEGER3;
+        private System.Windows.Forms.Panel panSelectIT6;
+        private System.Windows.Forms.RadioButton rButtonTEXT6;
+        private System.Windows.Forms.RadioButton rButtonINTEGER6;
+        private System.Windows.Forms.Panel panSelectIT9;
+        private System.Windows.Forms.RadioButton rButtonTEXT9;
+        private System.Windows.Forms.RadioButton rButtonINTEGER9;
     }
 }

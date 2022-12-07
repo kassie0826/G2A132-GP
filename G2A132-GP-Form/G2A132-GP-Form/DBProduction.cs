@@ -32,6 +32,8 @@ namespace G2A132_GP_Form
                 {
                     tBoxCount[c] = i;
                     c++;
+
+
                 }
             }
 
@@ -39,10 +41,21 @@ namespace G2A132_GP_Form
             {
                 string createTableName = tBoxCreateTableName.Text;
                 string createTableColumn = null;
-                string[] tBoxText = new string[9];
                 foreach (int num in tBoxCount)
                 {
-                    createTableColumn += (((TextBox)Controls[$"Column{tBoxCount[num]}"]).Text) + " " + "text int" + ",";
+                    if (((RadioButton)Controls[$"cBoxINTEGER{tBoxCount[num]}"]).Checked == true)
+                    {
+                        createTableColumn += (((TextBox)Controls[$"Column{tBoxCount[num]}"]).Text) + " " + $"INTEGER{num}" + ",";
+                    }
+                    else if (((RadioButton)Controls[$"cBoxTEXT{tBoxCount[num]}"]).Checked == true)
+                    {
+                        createTableColumn += (((TextBox)Controls[$"Column{tBoxCount[num]}"]).Text) + " " + $"TEXT{num}" + ",";
+                    }
+                    else if ((RadioButton)Controls[$"panSelectIT{tBoxCount[num]}"].Controls)
+                    {
+
+                    }
+                    
                 }
                 using (var con = new SQLiteConnection($"Data Source={createTableName}"))
                 {
