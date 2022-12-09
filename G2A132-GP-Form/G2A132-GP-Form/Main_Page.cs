@@ -24,5 +24,11 @@ namespace G2A132_GP_Form
             picTopPageIcon.Image = Properties.Resources.text_noclaim_noreturn;
             picTopPageIcon.SizeMode = PictureBoxSizeMode.Zoom;
         }
+
+        private void btnChengeDB_Click(object sender, EventArgs e)
+        {
+            DBProduction DBP = new DBProduction();
+            DBP.ShowDialog();
+        }
     }
 }

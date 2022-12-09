@@ -48,6 +48,7 @@ namespace G2A132_GP_Form
             this.tabRentalDVDBD = new System.Windows.Forms.TabPage();
             this.tabRentalCD = new System.Windows.Forms.TabPage();
             this.tabRentalComic = new System.Windows.Forms.TabPage();
+            this.btnChengeDB = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picTopPageIcon)).BeginInit();
             this.tabConOnlineGame.SuspendLayout();
             this.tabConRentalGameTab.SuspendLayout();
@@ -241,12 +242,23 @@ namespace G2A132_GP_Form
             this.tabRentalComic.Text = "コミック";
             this.tabRentalComic.UseVisualStyleBackColor = true;
             // 
+            // btnChengeDB
+            // 
+            this.btnChengeDB.Location = new System.Drawing.Point(30, 357);
+            this.btnChengeDB.Name = "btnChengeDB";
+            this.btnChengeDB.Size = new System.Drawing.Size(144, 23);
+            this.btnChengeDB.TabIndex = 22;
+            this.btnChengeDB.Text = "データベース作ろう！";
+            this.btnChengeDB.UseVisualStyleBackColor = true;
+            this.btnChengeDB.Click += new System.EventHandler(this.btnChengeDB_Click);
+            // 
             // Main_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(802, 453);
+            this.Controls.Add(this.btnChengeDB);
             this.Controls.Add(this.tabConRentalGameTab);
             this.Controls.Add(this.tabConOnlineGame);
             this.Controls.Add(this.btnChangeNewMember);
@@ -290,6 +302,7 @@ namespace G2A132_GP_Form
         private System.Windows.Forms.TabPage tabRentalDVDBD;
         private System.Windows.Forms.TabPage tabRentalCD;
         private System.Windows.Forms.TabPage tabRentalComic;
+        private System.Windows.Forms.Button btnChengeDB;
     }
 }
 

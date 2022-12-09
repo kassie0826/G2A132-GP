@@ -28,12 +28,10 @@ namespace G2A132_GP_Form
             int[] tBoxCount = new int[9];
             for (int i = 1, c = 1; i < 10; i++)
             {
-                if (((TextBox)Controls[$"Column{i}"]).Text != null)
+                if (((TextBox)Controls[$"tBoxColumn{i}"]).Text != String.Empty)
                 {
                     tBoxCount[c] = i;
                     c++;
-
-
                 }
             }
 
@@ -41,28 +39,31 @@ namespace G2A132_GP_Form
             {
                 string createTableName = tBoxCreateTableName.Text;
                 string createTableColumn = null;
+                string[] INTEGER = new string[9];
+                string[] TEXT = new string[9];
                 foreach (int num in tBoxCount)
                 {
-                    if (((RadioButton)Controls[$"cBoxINTEGER{tBoxCount[num]}"]).Checked == true)
+                    if (((RadioButton)Controls[$"rButtonINTEGER{tBoxCount[num]}"]).Checked == true)
                     {
                         createTableColumn += (((TextBox)Controls[$"Column{tBoxCount[num]}"]).Text) + " " + $"INTEGER{num}" + ",";
                     }
-                    else if (((RadioButton)Controls[$"cBoxTEXT{tBoxCount[num]}"]).Checked == true)
+                    else if (((RadioButton)Controls[$"rButtonTEXT{tBoxCount[num]}"]).Checked == true)
                     {
                         createTableColumn += (((TextBox)Controls[$"Column{tBoxCount[num]}"]).Text) + " " + $"TEXT{num}" + ",";
                     }
-                    else if ((RadioButton)Controls[$"panSelectIT{tBoxCount[num]}"].Controls)
+                    else if (((RadioButton)Controls[$"rButtonINTEGER{tBoxCount[num]}"]).Checked == false && ((RadioButton)Controls[$"rButtonTEXT{tBoxCount[num]}"]).Checked == false)
                     {
-
+                        MessageBox.Show("値の型を選んでください。", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     }
                     
                 }
-                using (var con = new SQLiteConnection($"Data Source={createTableName}"))
+                string createTableColumn2 = createTableColumn.Remove(createTableColumn.Length - 1);
+                using (var con = new SQLiteConnection($"Data Source=GEO.db"))
                 {
                     con.Open();
                     using (SQLiteCommand command = con.CreateCommand())
                     {
-                        command.CommandText = $"create table t_product()";
+                        command.CommandText = $"create table {createTableName}(" + createTableColumn2 + ")";
                         command.ExecuteNonQuery();
                     }
                     con.Close();
