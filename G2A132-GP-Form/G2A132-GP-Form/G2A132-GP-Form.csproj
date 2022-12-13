@@ -194,6 +194,9 @@
     <EmbeddedResource Include="Main_Page.resx">
       <DependentUpon>Main_Page.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewMember_Page.resx">
+      <DependentUpon>NewMember_Page.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NoticeList_Page.resx">
       <DependentUpon>NoticeList_Page.cs</DependentUpon>
     </EmbeddedResource>

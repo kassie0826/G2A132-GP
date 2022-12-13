@@ -30,7 +30,6 @@ namespace G2A132_GP_Form
         private void InitializeComponent()
         {
             this.btnChangeBuy = new System.Windows.Forms.Button();
-            this.picTopPageIcon = new System.Windows.Forms.PictureBox();
             this.btnChangeRental = new System.Windows.Forms.Button();
             this.btnChangePurchase = new System.Windows.Forms.Button();
             this.labOnlinePopular = new System.Windows.Forms.Label();
@@ -49,9 +48,10 @@ namespace G2A132_GP_Form
             this.tabRentalCD = new System.Windows.Forms.TabPage();
             this.tabRentalComic = new System.Windows.Forms.TabPage();
             this.btnChengeDB = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.picTopPageIcon)).BeginInit();
+            this.picTopPageIcon = new System.Windows.Forms.PictureBox();
             this.tabConOnlineGame.SuspendLayout();
             this.tabConRentalGameTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTopPageIcon)).BeginInit();
             this.SuspendLayout();
             // 
             // btnChangeBuy
@@ -62,14 +62,6 @@ namespace G2A132_GP_Form
             this.btnChangeBuy.TabIndex = 0;
             this.btnChangeBuy.Text = "ネット・店舗で買う";
             this.btnChangeBuy.UseVisualStyleBackColor = true;
-            // 
-            // picTopPageIcon
-            // 
-            this.picTopPageIcon.Location = new System.Drawing.Point(12, 12);
-            this.picTopPageIcon.Name = "picTopPageIcon";
-            this.picTopPageIcon.Size = new System.Drawing.Size(144, 73);
-            this.picTopPageIcon.TabIndex = 1;
-            this.picTopPageIcon.TabStop = false;
             // 
             // btnChangeRental
             // 
@@ -135,6 +127,7 @@ namespace G2A132_GP_Form
             this.btnChangeNewMember.TabIndex = 19;
             this.btnChangeNewMember.Text = "新規会員登録";
             this.btnChangeNewMember.UseVisualStyleBackColor = true;
+            this.btnChangeNewMember.Click += new System.EventHandler(this.btnChangeNewMember_Click);
             // 
             // tabConOnlineGame
             // 
@@ -248,9 +241,16 @@ namespace G2A132_GP_Form
             this.btnChengeDB.Name = "btnChengeDB";
             this.btnChengeDB.Size = new System.Drawing.Size(144, 23);
             this.btnChengeDB.TabIndex = 22;
-            this.btnChengeDB.Text = "データベース作ろう！";
             this.btnChengeDB.UseVisualStyleBackColor = true;
             this.btnChengeDB.Click += new System.EventHandler(this.btnChengeDB_Click);
+            // 
+            // picTopPageIcon
+            // 
+            this.picTopPageIcon.Location = new System.Drawing.Point(12, 12);
+            this.picTopPageIcon.Name = "picTopPageIcon";
+            this.picTopPageIcon.Size = new System.Drawing.Size(144, 73);
+            this.picTopPageIcon.TabIndex = 1;
+            this.picTopPageIcon.TabStop = false;
             // 
             // Main_Page
             // 
@@ -273,9 +273,9 @@ namespace G2A132_GP_Form
             this.Name = "Main_Page";
             this.Text = "メインページ";
             this.Load += new System.EventHandler(this.MainPage_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picTopPageIcon)).EndInit();
             this.tabConOnlineGame.ResumeLayout(false);
             this.tabConRentalGameTab.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picTopPageIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

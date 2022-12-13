@@ -19,3 +19,4 @@ C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\Ent
 C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\bin\Debug\System.Data.SQLite.xml
 C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132_GP_Form.DBProduction.resources
 C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132-GP-Form.csproj.CopyComplete
+C:\Users\s20217058\Desktop\G2A132-GP\G2A132-GP-Form\G2A132-GP-Form\obj\Debug\G2A132_GP_Form.NewMember_Page.resources

@@ -43,15 +43,15 @@ namespace G2A132_GP_Form
                 string[] TEXT = new string[9];
                 foreach (int num in tBoxCount)
                 {
-                    if (((RadioButton)Controls[$"rButtonINTEGER{tBoxCount[num]}"]).Checked == true)
+                    if (((RadioButton)Controls["rButtonINTEGER" + $"{tBoxCount[num]}"]).Checked == true)
                     {
-                        createTableColumn += (((TextBox)Controls[$"Column{tBoxCount[num]}"]).Text) + " " + $"INTEGER{num}" + ",";
+                        createTableColumn += (((TextBox)Controls[$"Column" + $"{tBoxCount[num]}"]).Text) + " " + $"INTEGER{num}" + ",";
                     }
-                    else if (((RadioButton)Controls[$"rButtonTEXT{tBoxCount[num]}"]).Checked == true)
+                    else if (((RadioButton)Controls[$"rButtonTEXT" + "{tBoxCount[num]}"]).Checked == true)
                     {
-                        createTableColumn += (((TextBox)Controls[$"Column{tBoxCount[num]}"]).Text) + " " + $"TEXT{num}" + ",";
+                        createTableColumn += (((TextBox)Controls[$"Column" + "{tBoxCount[num]}"]).Text) + " " + $"TEXT{num}" + ",";
                     }
-                    else if (((RadioButton)Controls[$"rButtonINTEGER{tBoxCount[num]}"]).Checked == false && ((RadioButton)Controls[$"rButtonTEXT{tBoxCount[num]}"]).Checked == false)
+                    else if (((RadioButton)Controls[$"rButtonINTEGER" + "{tBoxCount[num]}"]).Checked == false && ((RadioButton)Controls[$"rButtonTEXT{tBoxCount[num]}"]).Checked == false)
                     {
                         MessageBox.Show("値の型を選んでください。", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     }
@@ -63,7 +63,7 @@ namespace G2A132_GP_Form
                     con.Open();
                     using (SQLiteCommand command = con.CreateCommand())
                     {
-                        command.CommandText = $"create table {createTableName}(" + createTableColumn2 + ")";
+                        command.CommandText = $"create table {createTableName}(CD INTEGER   PRIMARY KEY AUTOINCREMENT" + createTableColumn2 + ")";
                         command.ExecuteNonQuery();
                     }
                     con.Close();

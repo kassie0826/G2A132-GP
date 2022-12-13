@@ -27,8 +27,14 @@ namespace G2A132_GP_Form
 
         private void btnChengeDB_Click(object sender, EventArgs e)
         {
-            DBProduction DBP = new DBProduction();
-            DBP.ShowDialog();
+            DBProduction dBProduction = new DBProduction();
+            dBProduction.Show();
+        }
+
+        private void btnChangeNewMember_Click(object sender, EventArgs e)
+        {
+            NewMember_Page newMember_Page = new NewMember_Page();
+            newMember_Page.Show();
         }
     }
 }
