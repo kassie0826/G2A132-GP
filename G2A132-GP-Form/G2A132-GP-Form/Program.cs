@@ -8,6 +8,7 @@ namespace G2A132_GP_Form
 {
     static class Program
     {
+        public static ApplicationContext mainFormContext;
         /// <summary>
         /// アプリケーションのメイン エントリ ポイントです。
         /// </summary>
@@ -16,7 +17,9 @@ namespace G2A132_GP_Form
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main_Page());
+            mainFormContext = new ApplicationContext();
+            mainFormContext.MainForm = new Main_Page();
+            Application.Run(mainFormContext);
         }
     }
 }

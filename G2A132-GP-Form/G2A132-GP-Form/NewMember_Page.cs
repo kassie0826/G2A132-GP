@@ -16,5 +16,17 @@ namespace G2A132_GP_Form
         {
             InitializeComponent();
         }
+
+        private void btnBackMainPage_Click(object sender, EventArgs e)
+        {
+            Program.mainFormContext.MainForm = new Main_Page();
+            Program.mainFormContext.MainForm.Show();
+            this.Close();
+        }
+
+        private void btnNextInfoInput_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

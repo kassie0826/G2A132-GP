@@ -33,8 +33,9 @@ namespace G2A132_GP_Form
 
         private void btnChangeNewMember_Click(object sender, EventArgs e)
         {
-            NewMember_Page newMember_Page = new NewMember_Page();
-            newMember_Page.Show();
+            Program.mainFormContext.MainForm = new NewMember_Page();
+            Program.mainFormContext.MainForm.Show();
+            this.Close();
         }
     }
 }

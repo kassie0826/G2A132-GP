@@ -36,7 +36,7 @@ namespace G2A132_GP_Form
             this.label_FirstName = new System.Windows.Forms.Label();
             this.label_DateOfBirth = new System.Windows.Forms.Label();
             this.textBox_PhoneNumber_Lead = new System.Windows.Forms.TextBox();
-            this.label_Name = new System.Windows.Forms.Label();
+            this.label_PleaseEnter = new System.Windows.Forms.Label();
             this.label_Address = new System.Windows.Forms.Label();
             this.label_PhoneNumber = new System.Windows.Forms.Label();
             this.textBox_PhoneNumber_Middle = new System.Windows.Forms.TextBox();
@@ -50,6 +50,8 @@ namespace G2A132_GP_Form
             this.textBox_BirthYear = new System.Windows.Forms.TextBox();
             this.comboBox_BirthMonth = new System.Windows.Forms.ComboBox();
             this.textBox_BirthDate = new System.Windows.Forms.TextBox();
+            this.btnNextInfoInput = new System.Windows.Forms.Button();
+            this.btnBackMainPage = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox_LastName
@@ -67,7 +69,7 @@ namespace G2A132_GP_Form
             this.label_LastName.Location = new System.Drawing.Point(176, 91);
             this.label_LastName.Name = "label_LastName";
             this.label_LastName.Size = new System.Drawing.Size(25, 17);
-            this.label_LastName.TabIndex = 24;
+            this.label_LastName.TabIndex = 22;
             this.label_LastName.Text = "姓";
             // 
             // textBox_FirstName
@@ -84,7 +86,7 @@ namespace G2A132_GP_Form
             this.textBox_Address.Location = new System.Drawing.Point(207, 233);
             this.textBox_Address.Name = "textBox_Address";
             this.textBox_Address.Size = new System.Drawing.Size(400, 24);
-            this.textBox_Address.TabIndex = 3;
+            this.textBox_Address.TabIndex = 7;
             // 
             // label_FirstName
             // 
@@ -93,7 +95,7 @@ namespace G2A132_GP_Form
             this.label_FirstName.Location = new System.Drawing.Point(426, 90);
             this.label_FirstName.Name = "label_FirstName";
             this.label_FirstName.Size = new System.Drawing.Size(25, 17);
-            this.label_FirstName.TabIndex = 23;
+            this.label_FirstName.TabIndex = 21;
             this.label_FirstName.Text = "名";
             // 
             // label_DateOfBirth
@@ -103,7 +105,7 @@ namespace G2A132_GP_Form
             this.label_DateOfBirth.Location = new System.Drawing.Point(125, 190);
             this.label_DateOfBirth.Name = "label_DateOfBirth";
             this.label_DateOfBirth.Size = new System.Drawing.Size(76, 17);
-            this.label_DateOfBirth.TabIndex = 22;
+            this.label_DateOfBirth.TabIndex = 20;
             this.label_DateOfBirth.Text = "生年月日";
             // 
             // textBox_PhoneNumber_Lead
@@ -112,17 +114,17 @@ namespace G2A132_GP_Form
             this.textBox_PhoneNumber_Lead.Location = new System.Drawing.Point(207, 284);
             this.textBox_PhoneNumber_Lead.Name = "textBox_PhoneNumber_Lead";
             this.textBox_PhoneNumber_Lead.Size = new System.Drawing.Size(100, 24);
-            this.textBox_PhoneNumber_Lead.TabIndex = 6;
+            this.textBox_PhoneNumber_Lead.TabIndex = 8;
             // 
-            // label_Name
+            // label_PleaseEnter
             // 
-            this.label_Name.AutoSize = true;
-            this.label_Name.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label_Name.Location = new System.Drawing.Point(129, 48);
-            this.label_Name.Name = "label_Name";
-            this.label_Name.Size = new System.Drawing.Size(51, 20);
-            this.label_Name.TabIndex = 21;
-            this.label_Name.Text = "名前";
+            this.label_PleaseEnter.AutoSize = true;
+            this.label_PleaseEnter.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label_PleaseEnter.Location = new System.Drawing.Point(100, 46);
+            this.label_PleaseEnter.Name = "label_PleaseEnter";
+            this.label_PleaseEnter.Size = new System.Drawing.Size(236, 20);
+            this.label_PleaseEnter.TabIndex = 19;
+            this.label_PleaseEnter.Text = "各項目を入力してください。";
             // 
             // label_Address
             // 
@@ -131,7 +133,7 @@ namespace G2A132_GP_Form
             this.label_Address.Location = new System.Drawing.Point(159, 236);
             this.label_Address.Name = "label_Address";
             this.label_Address.Size = new System.Drawing.Size(42, 17);
-            this.label_Address.TabIndex = 20;
+            this.label_Address.TabIndex = 18;
             this.label_Address.Text = "住所";
             // 
             // label_PhoneNumber
@@ -141,7 +143,7 @@ namespace G2A132_GP_Form
             this.label_PhoneNumber.Location = new System.Drawing.Point(125, 287);
             this.label_PhoneNumber.Name = "label_PhoneNumber";
             this.label_PhoneNumber.Size = new System.Drawing.Size(76, 17);
-            this.label_PhoneNumber.TabIndex = 14;
+            this.label_PhoneNumber.TabIndex = 17;
             this.label_PhoneNumber.Text = "電話番号";
             // 
             // textBox_PhoneNumber_Middle
@@ -150,7 +152,7 @@ namespace G2A132_GP_Form
             this.textBox_PhoneNumber_Middle.Location = new System.Drawing.Point(336, 284);
             this.textBox_PhoneNumber_Middle.Name = "textBox_PhoneNumber_Middle";
             this.textBox_PhoneNumber_Middle.Size = new System.Drawing.Size(100, 24);
-            this.textBox_PhoneNumber_Middle.TabIndex = 15;
+            this.textBox_PhoneNumber_Middle.TabIndex = 9;
             // 
             // textBox_PhoneNumber_End
             // 
@@ -158,7 +160,7 @@ namespace G2A132_GP_Form
             this.textBox_PhoneNumber_End.Location = new System.Drawing.Point(465, 284);
             this.textBox_PhoneNumber_End.Name = "textBox_PhoneNumber_End";
             this.textBox_PhoneNumber_End.Size = new System.Drawing.Size(100, 24);
-            this.textBox_PhoneNumber_End.TabIndex = 17;
+            this.textBox_PhoneNumber_End.TabIndex = 10;
             // 
             // label_PhoneNumber_Hyphen1
             // 
@@ -167,7 +169,7 @@ namespace G2A132_GP_Form
             this.label_PhoneNumber_Hyphen1.Location = new System.Drawing.Point(313, 287);
             this.label_PhoneNumber_Hyphen1.Name = "label_PhoneNumber_Hyphen1";
             this.label_PhoneNumber_Hyphen1.Size = new System.Drawing.Size(17, 17);
-            this.label_PhoneNumber_Hyphen1.TabIndex = 18;
+            this.label_PhoneNumber_Hyphen1.TabIndex = 16;
             this.label_PhoneNumber_Hyphen1.Text = "-";
             this.label_PhoneNumber_Hyphen1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -178,7 +180,7 @@ namespace G2A132_GP_Form
             this.label_PhoneNumber_Hyphen2.Location = new System.Drawing.Point(442, 287);
             this.label_PhoneNumber_Hyphen2.Name = "label_PhoneNumber_Hyphen2";
             this.label_PhoneNumber_Hyphen2.Size = new System.Drawing.Size(17, 17);
-            this.label_PhoneNumber_Hyphen2.TabIndex = 19;
+            this.label_PhoneNumber_Hyphen2.TabIndex = 15;
             this.label_PhoneNumber_Hyphen2.Text = "-";
             // 
             // textBox_LastName_Furigana
@@ -202,7 +204,7 @@ namespace G2A132_GP_Form
             this.label_LastName_Furigana.Location = new System.Drawing.Point(135, 139);
             this.label_LastName_Furigana.Name = "label_LastName_Furigana";
             this.label_LastName_Furigana.Size = new System.Drawing.Size(66, 17);
-            this.label_LastName_Furigana.TabIndex = 1;
+            this.label_LastName_Furigana.TabIndex = 14;
             this.label_LastName_Furigana.Text = "姓 (カナ)";
             // 
             // label_FirstName_Furigana
@@ -212,7 +214,7 @@ namespace G2A132_GP_Form
             this.label_FirstName_Furigana.Location = new System.Drawing.Point(389, 139);
             this.label_FirstName_Furigana.Name = "label_FirstName_Furigana";
             this.label_FirstName_Furigana.Size = new System.Drawing.Size(66, 17);
-            this.label_FirstName_Furigana.TabIndex = 0;
+            this.label_FirstName_Furigana.TabIndex = 13;
             this.label_FirstName_Furigana.Text = "名 (カナ)";
             // 
             // textBox_BirthYear
@@ -221,7 +223,7 @@ namespace G2A132_GP_Form
             this.textBox_BirthYear.Location = new System.Drawing.Point(207, 187);
             this.textBox_BirthYear.Name = "textBox_BirthYear";
             this.textBox_BirthYear.Size = new System.Drawing.Size(100, 24);
-            this.textBox_BirthYear.TabIndex = 25;
+            this.textBox_BirthYear.TabIndex = 4;
             // 
             // comboBox_BirthMonth
             // 
@@ -245,7 +247,7 @@ namespace G2A132_GP_Form
             this.comboBox_BirthMonth.Location = new System.Drawing.Point(336, 187);
             this.comboBox_BirthMonth.Name = "comboBox_BirthMonth";
             this.comboBox_BirthMonth.Size = new System.Drawing.Size(121, 25);
-            this.comboBox_BirthMonth.TabIndex = 26;
+            this.comboBox_BirthMonth.TabIndex = 5;
             // 
             // textBox_BirthDate
             // 
@@ -253,13 +255,37 @@ namespace G2A132_GP_Form
             this.textBox_BirthDate.Location = new System.Drawing.Point(489, 187);
             this.textBox_BirthDate.Name = "textBox_BirthDate";
             this.textBox_BirthDate.Size = new System.Drawing.Size(100, 24);
-            this.textBox_BirthDate.TabIndex = 27;
+            this.textBox_BirthDate.TabIndex = 6;
+            // 
+            // btnNextInfoInput
+            // 
+            this.btnNextInfoInput.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnNextInfoInput.Location = new System.Drawing.Point(620, 360);
+            this.btnNextInfoInput.Name = "btnNextInfoInput";
+            this.btnNextInfoInput.Size = new System.Drawing.Size(101, 42);
+            this.btnNextInfoInput.TabIndex = 11;
+            this.btnNextInfoInput.Text = "次へ";
+            this.btnNextInfoInput.UseVisualStyleBackColor = true;
+            this.btnNextInfoInput.Click += new System.EventHandler(this.btnNextInfoInput_Click);
+            // 
+            // btnBackMainPage
+            // 
+            this.btnBackMainPage.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnBackMainPage.Location = new System.Drawing.Point(75, 360);
+            this.btnBackMainPage.Name = "btnBackMainPage";
+            this.btnBackMainPage.Size = new System.Drawing.Size(101, 42);
+            this.btnBackMainPage.TabIndex = 12;
+            this.btnBackMainPage.Text = "戻る";
+            this.btnBackMainPage.UseVisualStyleBackColor = true;
+            this.btnBackMainPage.Click += new System.EventHandler(this.btnBackMainPage_Click);
             // 
             // NewMember_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBackMainPage);
+            this.Controls.Add(this.btnNextInfoInput);
             this.Controls.Add(this.textBox_BirthDate);
             this.Controls.Add(this.comboBox_BirthMonth);
             this.Controls.Add(this.textBox_BirthYear);
@@ -273,7 +299,7 @@ namespace G2A132_GP_Form
             this.Controls.Add(this.textBox_PhoneNumber_Middle);
             this.Controls.Add(this.label_PhoneNumber);
             this.Controls.Add(this.label_Address);
-            this.Controls.Add(this.label_Name);
+            this.Controls.Add(this.label_PleaseEnter);
             this.Controls.Add(this.textBox_PhoneNumber_Lead);
             this.Controls.Add(this.label_DateOfBirth);
             this.Controls.Add(this.label_FirstName);
@@ -297,7 +323,7 @@ namespace G2A132_GP_Form
         private System.Windows.Forms.Label label_FirstName;
         private System.Windows.Forms.Label label_DateOfBirth;
         private System.Windows.Forms.TextBox textBox_PhoneNumber_Lead;
-        private System.Windows.Forms.Label label_Name;
+        private System.Windows.Forms.Label label_PleaseEnter;
         private System.Windows.Forms.Label label_Address;
         private System.Windows.Forms.Label label_PhoneNumber;
         private System.Windows.Forms.TextBox textBox_PhoneNumber_Middle;
@@ -311,5 +337,7 @@ namespace G2A132_GP_Form
         private System.Windows.Forms.TextBox textBox_BirthYear;
         private System.Windows.Forms.ComboBox comboBox_BirthMonth;
         private System.Windows.Forms.TextBox textBox_BirthDate;
+        private System.Windows.Forms.Button btnNextInfoInput;
+        private System.Windows.Forms.Button btnBackMainPage;
     }
 }
