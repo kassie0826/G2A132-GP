@@ -7,8 +7,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{50F409A7-0E3C-486B-B581-12710B546BC0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>G2A132_GP_Form</RootNamespace>
-    <AssemblyName>G2A132-GP-Form</AssemblyName>
+    <RootNamespace>G2A132GameProgramForm</RootNamespace>
+    <AssemblyName>G2A132GameProgramForm</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

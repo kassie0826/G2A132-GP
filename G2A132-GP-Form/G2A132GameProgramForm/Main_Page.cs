@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace G2A132_GP_Form
+namespace G2A132GameProgramForm
 {
     public partial class Main_Page : Form
     {
@@ -27,8 +27,7 @@ namespace G2A132_GP_Form
 
         private void btnChengeDB_Click(object sender, EventArgs e)
         {
-            DBProduction dBProduction = new DBProduction();
-            dBProduction.Show();
+            
         }
 
         private void btnChangeNewMember_Click(object sender, EventArgs e)

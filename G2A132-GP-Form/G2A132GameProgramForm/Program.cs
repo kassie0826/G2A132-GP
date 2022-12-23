@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace G2A132_GP_Form
+namespace G2A132GameProgramForm
 {
     static class Program
     {

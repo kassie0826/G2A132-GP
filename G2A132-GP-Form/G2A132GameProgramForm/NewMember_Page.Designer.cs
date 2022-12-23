@@ -1,5 +1,5 @@
 ﻿
-namespace G2A132_GP_Form
+namespace G2A132GameProgramForm
 {
     partial class NewMember_Page
     {
@@ -297,6 +297,7 @@ namespace G2A132_GP_Form
             // 
             // groupBox_InfoVolume1
             // 
+            this.groupBox_InfoVolume1.Controls.Add(this.groupBox_InfoVolume2);
             this.groupBox_InfoVolume1.Controls.Add(this.button_BackMainPage);
             this.groupBox_InfoVolume1.Controls.Add(this.button_ChangeInfoVolume2);
             this.groupBox_InfoVolume1.Controls.Add(this.textBox_BirthDate);
@@ -339,7 +340,7 @@ namespace G2A132_GP_Form
             this.groupBox_InfoVolume2.Controls.Add(this.label_MemberIDNotes);
             this.groupBox_InfoVolume2.Controls.Add(this.textBox_MemberID);
             this.groupBox_InfoVolume2.Controls.Add(this.label_MemberID);
-            this.groupBox_InfoVolume2.Location = new System.Drawing.Point(46, 77);
+            this.groupBox_InfoVolume2.Location = new System.Drawing.Point(0, 0);
             this.groupBox_InfoVolume2.Name = "groupBox_InfoVolume2";
             this.groupBox_InfoVolume2.Size = new System.Drawing.Size(706, 352);
             this.groupBox_InfoVolume2.TabIndex = 24;
@@ -463,11 +464,11 @@ namespace G2A132_GP_Form
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBox_InfoVolume2);
             this.Controls.Add(this.groupBox_InfoVolume1);
             this.Controls.Add(this.label_PleaseEnter);
             this.Name = "NewMember_Page";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.NewMemberPage_Load);
             this.groupBox_InfoVolume1.ResumeLayout(false);
             this.groupBox_InfoVolume1.PerformLayout();
             this.groupBox_InfoVolume2.ResumeLayout(false);
