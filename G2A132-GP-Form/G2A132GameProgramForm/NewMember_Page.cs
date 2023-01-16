@@ -68,6 +68,7 @@ namespace G2A132GameProgramForm
             textBox_PhoneNumberLead.ResetText();
             textBox_PhoneNumberMiddle.ResetText();
             textBox_PhoneNumberEnd.ResetText();
+            textBox_LastName.StringOnly_KeyPress();
         }
 
         /// <summary>
@@ -84,29 +85,38 @@ namespace G2A132GameProgramForm
         }
 
         /// <summary>
-        /// 1ページ目の未入力項目チェック
-        /// 必須項目が入力されていなかったらメッセージボックスで未入力項目を表示
-        /// 同時に2ページ目への推移判定
+        /// 1ページ目の項目チェック
+        /// ・必須項目が入力されていなかったらメッセージボックスで未入力項目を表示
+        /// ・入力項目が型にあっているかの判定
+        /// 問題がなければ2ページ目への推移判定
         /// </summary>
+        /// <param name="sender">button_ChangeInfoVolume2</param>
+        /// <param name="e">ボタンが押された時</param>
         private void button_ChangeInfoVolume2_Click(object sender, EventArgs e)
         {
             int[] emptyPositionInfoVolume1 = new int[11];
             int[] notEmptyPositionInfoVolume1 = new int[11];
-            for (int i = 1, c = 0; i < _newMemberInfoVolume1.Length; i++)
+            for (int i = 1, emp = 0, not = 0; i < _newMemberInfoVolume1.Length; i++)
             {
                 Console.WriteLine(groupBox_InfoVolume1.Controls[_newMemberInfoVolume1[i]].Text);
                 if ((groupBox_InfoVolume1.Controls[_newMemberInfoVolume1[i]].Text) == string.Empty)
                 {
-                    Console.WriteLine(i);
-                    emptyPositionInfoVolume1[c] = i;
-                    c++;
+                    Console.WriteLine("e" + i);
+                    emptyPositionInfoVolume1[emp] = i;
+                    emp++;
+                }
+                else if ((groupBox_InfoVolume1.Controls[_newMemberInfoVolume1[i]].Text) != string.Empty)
+                {
+                    Console.WriteLine("ne" + i);
+                    notEmptyPositionInfoVolume1[not] = i;
+                    not++;
                 }
             }
             Console.WriteLine(emptyPositionInfoVolume1.Length);
             if (emptyPositionInfoVolume1[0] != 0)
             {
                 string emptyMessageInfoVolume1 = string.Empty;
-                bool phoneNumberDecision = false;
+                bool phoneNumberDecision1 = false;
                 for (int c = 0; c < emptyPositionInfoVolume1.Length; c++)
                 {
                     Console.WriteLine(emptyPositionInfoVolume1[c]);
@@ -137,28 +147,82 @@ namespace G2A132GameProgramForm
                             emptyMessageInfoVolume1 += "・住所\n";
                             break;
                         case 9:
-                            if (phoneNumberDecision) break;
-                            phoneNumberDecision = true;
+                            if (phoneNumberDecision1) break;
+                            phoneNumberDecision1 = true;
                             emptyMessageInfoVolume1 += "・電話番号\n";
                             break;
                         case 10:
-                            if (phoneNumberDecision) break;
-                            phoneNumberDecision = true;
+                            if (phoneNumberDecision1) break;
+                            phoneNumberDecision1 = true;
                             emptyMessageInfoVolume1 += "・電話番号\n";
                             break;
                         case 11:
-                            if (phoneNumberDecision) break;
-                            phoneNumberDecision = true;
+                            if (phoneNumberDecision1) break;
+                            phoneNumberDecision1 = true;
                             emptyMessageInfoVolume1 += "・電話番号\n";
                             break;
                     }
                 }
                 MessageBox.Show("次の項目が未入力です。\n" + emptyMessageInfoVolume1, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-            else if (emptyPositionInfoVolume1[0] == 0)
+            else if (notEmptyPositionInfoVolume1[0] != 0)
             {
-
-                groupBox_InfoVolume2.Visible = true;
+                string notEmptyMessageInfoVolume1 = string.Empty;
+                bool phoneNumberDecision2 = false;
+                for (int c = 0; c < notEmptyPositionInfoVolume1.Length; c++)
+                {
+                    switch (notEmptyPositionInfoVolume1[c])
+                    {
+                        case 1:
+                            notEmptyPositionInfoVolume1[1]
+                            notEmptyMessageInfoVolume1 += "・姓\n";
+                            break;
+                        case 2:
+                            notEmptyMessageInfoVolume1 += "・名\n";
+                            break;
+                        case 3:
+                            notEmptyMessageInfoVolume1 += "・姓 (カナ)\n";
+                            break;
+                        case 4:
+                            notEmptyMessageInfoVolume1 += "・名 (カナ)\n";
+                            break;
+                        case 5:
+                            notEmptyMessageInfoVolume1 += "・誕生年\n";
+                            break;
+                        case 6:
+                            notEmptyMessageInfoVolume1 += "・誕生月\n";
+                            break;
+                        case 7:
+                            notEmptyMessageInfoVolume1 += "・誕生日\n";
+                            break;
+                        case 8:
+                            notEmptyMessageInfoVolume1 += "・住所\n";
+                            break;
+                        case 9:
+                            if (phoneNumberDecision2) break;
+                            phoneNumberDecision2 = true;
+                            notEmptyMessageInfoVolume1 += "・電話番号\n";
+                            break;
+                        case 10:
+                            if (phoneNumberDecision2) break;
+                            phoneNumberDecision2 = true;
+                            notEmptyMessageInfoVolume1 += "・電話番号\n";
+                            break;
+                        case 11:
+                            if (phoneNumberDecision2) break;
+                            phoneNumberDecision2 = true;
+                            notEmptyMessageInfoVolume1 += "・電話番号\n";
+                            break;
+                    }
+                }
+                if (notEmptyMessageInfoVolume1 != string.Empty)
+                {
+                    MessageBox.Show("次の項目が入力形式に間違いがあります。\n" + notEmptyMessageInfoVolume1, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+                else if (notEmptyMessageInfoVolume1 == string.Empty)
+                {
+                    groupBox_InfoVolume2.Visible = true;
+                }
             }
             
         }
@@ -221,6 +285,18 @@ namespace G2A132GameProgramForm
         private void ComboBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = true;
+        }
+
+        private void StringOnly_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar > 'A' || 'Z' < e.KeyChar || e.KeyChar > 'a' || 'z' < e.KeyChar)
+            {
+                e.Handled = true;
+            }
+            else
+            {
+                e.Handled = false;
+            }
         }
     }
 }
