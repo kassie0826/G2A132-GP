@@ -1,74 +1,81 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace G2A132GameProgramForm
 {
     public partial class NewMember_Page : Form
     {
-        /// <summary>
-        /// フォームが生成されたときに呼び出される
-        /// </summary>
+        // フォームが生成されたときに呼び出される
         public NewMember_Page()
         {
             InitializeComponent();
-            //コンボボックスの入力不可処理 ()
-            comboBox_BirthMonth.KeyPress += new KeyPressEventHandler(ComboBox_KeyPress);
         }
 
         //入力内容を確認するためにオブジェクト名(?)を配列に入れる
         //1ページ目の入力項目を文字列で格納する配列
         string[] _newMemberInfoVolume1 = new string[12]
         {
-            "",
-            "textBox_LastName", 
-            "textBox_FirstName", 
-            "textBox_LastNameFurigana", 
-            "textBox_FirstNameFurigana",
-            "textBox_BirthYear",
-            "comboBox_BirthMonth",
-            "textBox_BirthDate",
-            "textBox_Address",
-            "textBox_PhoneNumberLead",
-            "textBox_PhoneNumberMiddle",
-            "textBox_PhoneNumberEnd"
+            "",                          //  0
+            "textBox_LastName",          //  1 
+            "textBox_FirstName",         //  2
+            "textBox_LastNameFurigana",  //  3 
+            "textBox_FirstNameFurigana", //  4
+            "textBox_BirthYear",         //  5
+            "comboBox_BirthMonth",       //  6
+            "textBox_BirthDate",         //  7
+            "textBox_Address",           //  8
+            "textBox_PhoneNumberLead",   //  9
+            "textBox_PhoneNumberMiddle", // 10
+            "textBox_PhoneNumberEnd"     // 11
         };
 
         //2ページ目の入力項目を文字列で格納する配列
         string[] _newMemberInfoVolume2 = new string[5] 
         { 
-            "",
-            "textBox_EmailAddress", 
-            "textBox_MemberID",
-            "textBox_Password", 
-            "textBox_PasswordReconfirmation" 
+            "",                              // 0
+            "textBox_EmailAddress",          // 1
+            "textBox_MemberID",              // 2
+            "textBox_Password",              // 3
+            "textBox_PasswordReconfirmation" // 4
         };
 
         /// <summary>
-        /// 新規会員登録ページに来たら入力項目のテキストを空にする処理
+        /// 新規会員登録ページに来たら入力項目のテキストに空にする処理と入力型の設定処理
         /// いらないかもしれない
         /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void NewMemberPage_Load(object sender, EventArgs e)
         {
-            textBox_LastName.ResetText();
-            textBox_FirstName.ResetText();
-            textBox_LastNameFurigana.ResetText();
-            textBox_FirstNameFurigana.ResetText();
-            textBox_BirthYear.ResetText();
-            comboBox_BirthMonth.ResetText();
-            comboBox_BirthMonth.DropDownStyle = ComboBoxStyle.DropDownList;
-            textBox_BirthDate.ResetText();
-            textBox_Address.ResetText();
-            textBox_PhoneNumberLead.ResetText();
-            textBox_PhoneNumberMiddle.ResetText();
-            textBox_PhoneNumberEnd.ResetText();
-            textBox_LastName.StringOnly_KeyPress();
+            for (int i = 1; i < _newMemberInfoVolume1.Length; i++)
+            {
+                groupBox_InfoVolume1.Controls[_newMemberInfoVolume1[i]].ResetText();
+                if (i == 1 ||  i == 2 || i == 3 || i == 4 || i == 8)
+                {
+                    groupBox_InfoVolume1.Controls[_newMemberInfoVolume1[i]].KeyPress += new KeyPressEventHandler(StringOnly_KeyPress);
+                }
+                else if (i == 5 || i == 6 || i == 7 || i == 9 || i == 10 || i == 11)
+                {
+                    groupBox_InfoVolume1.Controls[_newMemberInfoVolume1[i]].KeyPress += new KeyPressEventHandler(IntOnly_KeyPress);
+                }
+
+                if (_newMemberInfoVolume1[i] == "comboBox_BirthMonth")
+                {
+                    // コンボボックスの入力不可処理 ()
+                    comboBox_BirthMonth.KeyPress += new KeyPressEventHandler(ComboBox_KeyPress);
+                    comboBox_BirthMonth.DropDownStyle = ComboBoxStyle.DropDownList;
+                }
+            }
+
+            for (int i = 1; i < _newMemberInfoVolume2.Length; i++)
+            {
+                groupBox_InfoVolume2.Controls[_newMemberInfoVolume2[i]].ResetText();
+                groupBox_InfoVolume2.Controls[_newMemberInfoVolume2[i]].KeyPress += new KeyPressEventHandler(StringOnly_KeyPress);
+            }
         }
 
         /// <summary>
@@ -165,64 +172,10 @@ namespace G2A132GameProgramForm
                 }
                 MessageBox.Show("次の項目が未入力です。\n" + emptyMessageInfoVolume1, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-            else if (notEmptyPositionInfoVolume1[0] != 0)
+            else if (emptyPositionInfoVolume1[0] == 0)
             {
-                string notEmptyMessageInfoVolume1 = string.Empty;
-                bool phoneNumberDecision2 = false;
-                for (int c = 0; c < notEmptyPositionInfoVolume1.Length; c++)
-                {
-                    switch (notEmptyPositionInfoVolume1[c])
-                    {
-                        case 1:
-                            notEmptyPositionInfoVolume1[1]
-                            notEmptyMessageInfoVolume1 += "・姓\n";
-                            break;
-                        case 2:
-                            notEmptyMessageInfoVolume1 += "・名\n";
-                            break;
-                        case 3:
-                            notEmptyMessageInfoVolume1 += "・姓 (カナ)\n";
-                            break;
-                        case 4:
-                            notEmptyMessageInfoVolume1 += "・名 (カナ)\n";
-                            break;
-                        case 5:
-                            notEmptyMessageInfoVolume1 += "・誕生年\n";
-                            break;
-                        case 6:
-                            notEmptyMessageInfoVolume1 += "・誕生月\n";
-                            break;
-                        case 7:
-                            notEmptyMessageInfoVolume1 += "・誕生日\n";
-                            break;
-                        case 8:
-                            notEmptyMessageInfoVolume1 += "・住所\n";
-                            break;
-                        case 9:
-                            if (phoneNumberDecision2) break;
-                            phoneNumberDecision2 = true;
-                            notEmptyMessageInfoVolume1 += "・電話番号\n";
-                            break;
-                        case 10:
-                            if (phoneNumberDecision2) break;
-                            phoneNumberDecision2 = true;
-                            notEmptyMessageInfoVolume1 += "・電話番号\n";
-                            break;
-                        case 11:
-                            if (phoneNumberDecision2) break;
-                            phoneNumberDecision2 = true;
-                            notEmptyMessageInfoVolume1 += "・電話番号\n";
-                            break;
-                    }
-                }
-                if (notEmptyMessageInfoVolume1 != string.Empty)
-                {
-                    MessageBox.Show("次の項目が入力形式に間違いがあります。\n" + notEmptyMessageInfoVolume1, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                }
-                else if (notEmptyMessageInfoVolume1 == string.Empty)
-                {
-                    groupBox_InfoVolume2.Visible = true;
-                }
+                // 
+                groupBox_InfoVolume2.Visible = true;
             }
             
         }
@@ -233,9 +186,15 @@ namespace G2A132GameProgramForm
         /// </summary>
         private void button_BackInfoVolume1_Click(object sender, EventArgs e)
         {
+            // 2ページ目の非表示処理 (ごり押し)
             groupBox_InfoVolume2.Visible = false;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button_NewMemberRegister_Click(object sender, EventArgs e)
         {
             int[] emptyPositionInfoVolume2 = new int[4];
@@ -275,27 +234,46 @@ namespace G2A132GameProgramForm
             }
             else if (emptyPositionInfoVolume2[0] == 0)
             {
-                
+                // 登録処理
+                // 登録成功通知
             }
         }
 
         /// <summary>
         /// コンボボックスの入力不可処理
         /// </summary>
+        /// <param name="sender">入力不可にしたいコンボボックス</param>
+        /// <param name="e">このフォームがロードされたとき</param>
         private void ComboBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = true;
         }
 
+        /// <summary>
+        /// テキストボックスに入力する際に文字のみの入力に強制する処理
+        /// </summary>
+        /// <param name="sender">文字のみ入力可能にしたいテキストボックス</param>
+        /// <param name="e">このフォームがロードされたとき</param>
         private void StringOnly_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar > 'A' || 'Z' < e.KeyChar || e.KeyChar > 'a' || 'z' < e.KeyChar)
+            // A～Z, a～z以外の入力だったら無効
+            if (e.KeyChar < 'A' || 'Z' < e.KeyChar || e.KeyChar < 'a' || 'z' < e.KeyChar)
             {
                 e.Handled = true;
             }
-            else
+        }
+
+        /// <summary>
+        /// テキストボックスに入力する際に数字のみの入力に強制する処理
+        /// </summary>
+        /// <param name="sender">数字のみ入力可能にしたいテキストボックス</param>
+        /// <param name="e">このフォームがロードされたとき</param>
+        private void IntOnly_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // 0～9以外の入力だったら無効
+            if (e.KeyChar < '0' || '9' < e.KeyChar)
             {
-                e.Handled = false;
+                e.Handled = true;
             }
         }
     }
