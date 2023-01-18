@@ -191,6 +191,9 @@
     <EmbeddedResource Include="DBProduction.resx">
       <DependentUpon>DBProduction.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Login_Page.resx">
+      <DependentUpon>Login_Page.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main_Page.resx">
       <DependentUpon>Main_Page.cs</DependentUpon>
     </EmbeddedResource>

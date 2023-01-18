@@ -13,6 +13,7 @@ namespace G2A132GameProgramForm
         public NewMember_Page()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         //入力内容を確認するためにオブジェクト名(?)を配列に入れる
@@ -51,21 +52,22 @@ namespace G2A132GameProgramForm
         /// <param name="e"></param>
         private void NewMemberPage_Load(object sender, EventArgs e)
         {
+            
             for (int i = 1; i < _newMemberInfoVolume1.Length; i++)
             {
                 groupBox_InfoVolume1.Controls[_newMemberInfoVolume1[i]].ResetText();
-                if (i == 1 ||  i == 2 || i == 3 || i == 4 || i == 8)
-                {
-                    groupBox_InfoVolume1.Controls[_newMemberInfoVolume1[i]].KeyPress += new KeyPressEventHandler(StringOnly_KeyPress);
-                }
-                else if (i == 5 || i == 6 || i == 7 || i == 9 || i == 10 || i == 11)
+                //if (i == 1 ||  i == 2 || i == 3 || i == 4 || i == 8)
+                //{
+                //    groupBox_InfoVolume1.Controls[_newMemberInfoVolume1[i]].KeyPress += new KeyPressEventHandler(StringOnly_KeyPress);
+                //}
+                //else 
+                if (i == 5 || i == 6 || i == 7 || i == 9 || i == 10 || i == 11)
                 {
                     groupBox_InfoVolume1.Controls[_newMemberInfoVolume1[i]].KeyPress += new KeyPressEventHandler(IntOnly_KeyPress);
                 }
-
-                if (_newMemberInfoVolume1[i] == "comboBox_BirthMonth")
+                else if (_newMemberInfoVolume1[i] == "comboBox_BirthMonth")
                 {
-                    // コンボボックスの入力不可処理 ()
+                    // コンボボックスの入力不可処理
                     comboBox_BirthMonth.KeyPress += new KeyPressEventHandler(ComboBox_KeyPress);
                     comboBox_BirthMonth.DropDownStyle = ComboBoxStyle.DropDownList;
                 }
@@ -76,6 +78,21 @@ namespace G2A132GameProgramForm
                 groupBox_InfoVolume2.Controls[_newMemberInfoVolume2[i]].ResetText();
                 groupBox_InfoVolume2.Controls[_newMemberInfoVolume2[i]].KeyPress += new KeyPressEventHandler(StringOnly_KeyPress);
             }
+
+            textBox_LastName.ShortcutsEnabled = false;
+            textBox_FirstName.ShortcutsEnabled = false;
+            textBox_LastNameFurigana.ShortcutsEnabled = false;
+            textBox_FirstNameFurigana.ShortcutsEnabled = false;
+            textBox_BirthYear.ShortcutsEnabled = false;
+            textBox_BirthDate.ShortcutsEnabled = false;
+            textBox_Address.ShortcutsEnabled = false;
+            textBox_PhoneNumberLead.ShortcutsEnabled = false;
+            textBox_PhoneNumberMiddle.ShortcutsEnabled = false;
+            textBox_PhoneNumberEnd.ShortcutsEnabled = false;
+            textBox_EmailAddress.ShortcutsEnabled = false;
+            textBox_MemberID.ShortcutsEnabled = false;
+            textBox_Password.ShortcutsEnabled = false;
+            textBox_PasswordReconfirmation.ShortcutsEnabled = false;
         }
 
         /// <summary>
@@ -84,17 +101,16 @@ namespace G2A132GameProgramForm
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnBackMainPage_Click(object sender, EventArgs e)
+        private void button_BackMainPage_Click(object sender, EventArgs e)
         {
-            Program.mainFormContext.MainForm = new Main_Page();
-            Program.mainFormContext.MainForm.Show();
+            Program._mainFormContext.MainForm = new Main_Page();
+            Program._mainFormContext.MainForm.Show();
             this.Close();
         }
 
         /// <summary>
         /// 1ページ目の項目チェック
-        /// ・必須項目が入力されていなかったらメッセージボックスで未入力項目を表示
-        /// ・入力項目が型にあっているかの判定
+        /// ・項目が入力されていなかったらメッセージボックスで未入力項目を表示
         /// 問題がなければ2ページ目への推移判定
         /// </summary>
         /// <param name="sender">button_ChangeInfoVolume2</param>
@@ -174,7 +190,7 @@ namespace G2A132GameProgramForm
             }
             else if (emptyPositionInfoVolume1[0] == 0)
             {
-                // 
+                // 2ページ目の表示処理 (ごり押し)
                 groupBox_InfoVolume2.Visible = true;
             }
             
@@ -191,10 +207,13 @@ namespace G2A132GameProgramForm
         }
 
         /// <summary>
-        /// 
+        /// 2ページ目の入力項目チェック
+        /// ・項目が入力されていなかったらメッセージボックスで未入力項目を表示
+        /// 全ての項目が入力されていれば会員登録処理を行う
+        /// 登録が完了したら通知をしてログイン画面へ推移
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender">button_NewMemberRegister</param>
+        /// <param name="e">登録ボタンが押された時</param>
         private void button_NewMemberRegister_Click(object sender, EventArgs e)
         {
             int[] emptyPositionInfoVolume2 = new int[4];
@@ -257,7 +276,7 @@ namespace G2A132GameProgramForm
         private void StringOnly_KeyPress(object sender, KeyPressEventArgs e)
         {
             // A～Z, a～z以外の入力だったら無効
-            if (e.KeyChar < 'A' || 'Z' < e.KeyChar || e.KeyChar < 'a' || 'z' < e.KeyChar)
+            if ((e.KeyChar < 'A' || 'Z' < e.KeyChar) || (e.KeyChar < 'a' || 'z' < e.KeyChar) && e.KeyChar != '\b')
             {
                 e.Handled = true;
             }
@@ -271,7 +290,7 @@ namespace G2A132GameProgramForm
         private void IntOnly_KeyPress(object sender, KeyPressEventArgs e)
         {
             // 0～9以外の入力だったら無効
-            if (e.KeyChar < '0' || '9' < e.KeyChar)
+            if ((e.KeyChar < '0' || '9' < e.KeyChar) && e.KeyChar != '\b')
             {
                 e.Handled = true;
             }

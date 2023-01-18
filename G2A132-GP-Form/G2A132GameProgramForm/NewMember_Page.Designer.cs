@@ -73,6 +73,7 @@ namespace G2A132GameProgramForm
             // textBox_LastName
             // 
             this.textBox_LastName.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBox_LastName.ImeMode = System.Windows.Forms.ImeMode.Hiragana;
             this.textBox_LastName.Location = new System.Drawing.Point(161, 11);
             this.textBox_LastName.Name = "textBox_LastName";
             this.textBox_LastName.Size = new System.Drawing.Size(150, 24);
@@ -293,7 +294,7 @@ namespace G2A132GameProgramForm
             this.button_BackMainPage.TabIndex = 12;
             this.button_BackMainPage.Text = "戻る";
             this.button_BackMainPage.UseVisualStyleBackColor = true;
-            this.button_BackMainPage.Click += new System.EventHandler(this.btnBackMainPage_Click);
+            this.button_BackMainPage.Click += new System.EventHandler(this.button_BackMainPage_Click);
             // 
             // groupBox_InfoVolume1
             // 
@@ -339,7 +340,7 @@ namespace G2A132GameProgramForm
             this.groupBox_InfoVolume2.Controls.Add(this.label_MemberIDNotes);
             this.groupBox_InfoVolume2.Controls.Add(this.textBox_MemberID);
             this.groupBox_InfoVolume2.Controls.Add(this.label_MemberID);
-            this.groupBox_InfoVolume2.Location = new System.Drawing.Point(46, 77);
+            this.groupBox_InfoVolume2.Location = new System.Drawing.Point(46, 71);
             this.groupBox_InfoVolume2.Name = "groupBox_InfoVolume2";
             this.groupBox_InfoVolume2.Size = new System.Drawing.Size(706, 352);
             this.groupBox_InfoVolume2.TabIndex = 24;
@@ -381,6 +382,7 @@ namespace G2A132GameProgramForm
             // textBox_EmailAddress
             // 
             this.textBox_EmailAddress.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBox_EmailAddress.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.textBox_EmailAddress.Location = new System.Drawing.Point(161, 31);
             this.textBox_EmailAddress.Name = "textBox_EmailAddress";
             this.textBox_EmailAddress.Size = new System.Drawing.Size(300, 24);

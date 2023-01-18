@@ -8,7 +8,7 @@ namespace G2A132GameProgramForm
 {
     static class Program
     {
-        public static ApplicationContext mainFormContext;
+        public static ApplicationContext _mainFormContext;
         /// <summary>
         /// アプリケーションのメイン エントリ ポイントです。
         /// </summary>
@@ -17,9 +17,9 @@ namespace G2A132GameProgramForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            mainFormContext = new ApplicationContext();
-            mainFormContext.MainForm = new Main_Page();
-            Application.Run(mainFormContext);
+            _mainFormContext = new ApplicationContext();
+            _mainFormContext.MainForm = new Main_Page();
+            Application.Run(_mainFormContext);
         }
     }
 }
