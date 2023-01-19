@@ -14,6 +14,7 @@ namespace G2A132GameProgramForm
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.MaximizeBox = false;
         }
 
         //入力内容を確認するためにオブジェクト名(?)を配列に入れる

@@ -238,10 +238,11 @@ namespace G2A132GameProgramForm
             // 
             // btnChengeDB
             // 
-            this.btnChengeDB.Location = new System.Drawing.Point(30, 357);
+            this.btnChengeDB.Location = new System.Drawing.Point(30, 375);
             this.btnChengeDB.Name = "btnChengeDB";
-            this.btnChengeDB.Size = new System.Drawing.Size(144, 23);
+            this.btnChengeDB.Size = new System.Drawing.Size(126, 44);
             this.btnChengeDB.TabIndex = 22;
+            this.btnChengeDB.Text = "わいわいボタン";
             this.btnChengeDB.UseVisualStyleBackColor = true;
             this.btnChengeDB.Click += new System.EventHandler(this.btnChengeDB_Click);
             // 
