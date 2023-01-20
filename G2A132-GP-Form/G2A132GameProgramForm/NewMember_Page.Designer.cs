@@ -258,9 +258,7 @@ namespace G2A132GameProgramForm
             "9",
             "10",
             "11",
-            "12",
-            "13",
-            "XX"});
+            "12"});
             this.comboBox_BirthMonth.Location = new System.Drawing.Point(290, 110);
             this.comboBox_BirthMonth.Name = "comboBox_BirthMonth";
             this.comboBox_BirthMonth.Size = new System.Drawing.Size(121, 25);
@@ -340,7 +338,7 @@ namespace G2A132GameProgramForm
             this.groupBox_InfoVolume2.Controls.Add(this.label_MemberIDNotes);
             this.groupBox_InfoVolume2.Controls.Add(this.textBox_MemberID);
             this.groupBox_InfoVolume2.Controls.Add(this.label_MemberID);
-            this.groupBox_InfoVolume2.Location = new System.Drawing.Point(46, 71);
+            this.groupBox_InfoVolume2.Location = new System.Drawing.Point(46, 77);
             this.groupBox_InfoVolume2.Name = "groupBox_InfoVolume2";
             this.groupBox_InfoVolume2.Size = new System.Drawing.Size(706, 352);
             this.groupBox_InfoVolume2.TabIndex = 24;
