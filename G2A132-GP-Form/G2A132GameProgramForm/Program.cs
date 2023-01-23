@@ -8,6 +8,7 @@ namespace G2A132GameProgramForm
 {
     static class Program
     {
+        
         public static ApplicationContext _mainFormContext;
         /// <summary>
         /// アプリケーションのメイン エントリ ポイントです。

@@ -66,6 +66,9 @@ namespace G2A132GameProgramForm
             this.label_MemberIDNotes = new System.Windows.Forms.Label();
             this.textBox_MemberID = new System.Windows.Forms.TextBox();
             this.label_MemberID = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox_InfoVolume1.SuspendLayout();
             this.groupBox_InfoVolume2.SuspendLayout();
             this.SuspendLayout();
@@ -157,7 +160,7 @@ namespace G2A132GameProgramForm
             // 
             this.label_PhoneNumber.AutoSize = true;
             this.label_PhoneNumber.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label_PhoneNumber.Location = new System.Drawing.Point(79, 210);
+            this.label_PhoneNumber.Location = new System.Drawing.Point(78, 210);
             this.label_PhoneNumber.Name = "label_PhoneNumber";
             this.label_PhoneNumber.Size = new System.Drawing.Size(76, 17);
             this.label_PhoneNumber.TabIndex = 17;
@@ -228,7 +231,7 @@ namespace G2A132GameProgramForm
             // 
             this.label_FirstName_Furigana.AutoSize = true;
             this.label_FirstName_Furigana.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label_FirstName_Furigana.Location = new System.Drawing.Point(343, 62);
+            this.label_FirstName_Furigana.Location = new System.Drawing.Point(339, 62);
             this.label_FirstName_Furigana.Name = "label_FirstName_Furigana";
             this.label_FirstName_Furigana.Size = new System.Drawing.Size(66, 17);
             this.label_FirstName_Furigana.TabIndex = 13;
@@ -259,9 +262,9 @@ namespace G2A132GameProgramForm
             "10",
             "11",
             "12"});
-            this.comboBox_BirthMonth.Location = new System.Drawing.Point(290, 110);
+            this.comboBox_BirthMonth.Location = new System.Drawing.Point(305, 110);
             this.comboBox_BirthMonth.Name = "comboBox_BirthMonth";
-            this.comboBox_BirthMonth.Size = new System.Drawing.Size(121, 25);
+            this.comboBox_BirthMonth.Size = new System.Drawing.Size(100, 25);
             this.comboBox_BirthMonth.TabIndex = 5;
             // 
             // textBox_BirthDate
@@ -296,6 +299,9 @@ namespace G2A132GameProgramForm
             // 
             // groupBox_InfoVolume1
             // 
+            this.groupBox_InfoVolume1.Controls.Add(this.label3);
+            this.groupBox_InfoVolume1.Controls.Add(this.label2);
+            this.groupBox_InfoVolume1.Controls.Add(this.label1);
             this.groupBox_InfoVolume1.Controls.Add(this.button_BackMainPage);
             this.groupBox_InfoVolume1.Controls.Add(this.button_ChangeInfoVolume2);
             this.groupBox_InfoVolume1.Controls.Add(this.textBox_BirthDate);
@@ -458,14 +464,44 @@ namespace G2A132GameProgramForm
             this.label_MemberID.TabIndex = 10;
             this.label_MemberID.Text = "会員ID";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.Location = new System.Drawing.Point(265, 113);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(25, 17);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "年";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label2.Location = new System.Drawing.Point(408, 113);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(25, 17);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "月";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label3.Location = new System.Drawing.Point(549, 113);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(25, 17);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "日";
+            // 
             // NewMember_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBox_InfoVolume2);
             this.Controls.Add(this.groupBox_InfoVolume1);
             this.Controls.Add(this.label_PleaseEnter);
+            this.Controls.Add(this.groupBox_InfoVolume2);
             this.Name = "NewMember_Page";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.NewMemberPage_Load);
@@ -517,5 +553,8 @@ namespace G2A132GameProgramForm
         private System.Windows.Forms.TextBox textBox_EmailAddress;
         private System.Windows.Forms.Button button_BackInfoVolume1;
         private System.Windows.Forms.Button button_NewMemberRegister;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -160,7 +160,15 @@ namespace G2A132GameProgramForm
                     // 新規会員登録ページを閉じる
                     this.Close();
                 }
-                // 「いいえ」の場合は特に処理を行わない予定
+            }
+            else
+            {
+                // メインページをメインフォームに設定
+                Program._mainFormContext.MainForm = new Main_Page();
+                // メインページを開く
+                Program._mainFormContext.MainForm.Show();
+                // 新規会員登録ページを閉じる
+                this.Close();
             }
         }
 
@@ -348,6 +356,7 @@ namespace G2A132GameProgramForm
             else if (emptyPositionInfoVolume2[0] == 0)
             {
                 // 登録処理
+                
                 // 登録成功通知
             }
         }
