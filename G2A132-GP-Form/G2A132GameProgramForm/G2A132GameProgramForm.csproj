@@ -228,7 +228,81 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\01.webp" />
+    <None Include="Resources\02.webp" />
     <None Include="Resources\text_noclaim_noreturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ゲオのロゴ-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SwitchLite-Coral.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheLegendOfHeroesII-Crim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pokemon-Violet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Persona5-TheRoyal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DRAGONQUEST-X-Offline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EarthDefenseForces6-PS5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRISISCODE-FFVII-REUNION-PS5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pokemon-Scarlet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Splatoon3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ONEPIECE-ODYSSEY-PS4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ONEPIECE-ODYSSEY-PS5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarioKart8Deluxe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DRAGONQUEST-TREASURES.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MINECRAFT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmashBros-Special.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SwitchOLED-White.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-Black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SwitchOLED-Black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SwitchLite-Turquoise.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
