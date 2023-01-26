@@ -54,8 +54,13 @@ namespace G2A132GameProgramForm
 
         private void button_BackMainPage_Click(object sender, EventArgs e)
         {
-            Program._mainFormContext.MainForm = new Main_Page();
-            Program._mainFormContext.MainForm.Show();
+            // メインページをメインフォームに設定
+            Program.SetMainForm(new Main_Page());
+            // 現在のメインフォームを取得 (直前で設定したフォーム)
+            Form mainPageOpen = Program.GetMainForm();
+            // メインページを開く
+            mainPageOpen.Show();
+            // 新規会員登録ページを閉じる
             this.Close();
         }
     }

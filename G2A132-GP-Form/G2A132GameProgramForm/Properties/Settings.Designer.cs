@@ -22,5 +22,26 @@ namespace G2A132GameProgramForm.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string MemberID {
+            get {
+                return ((string)(this["MemberID"]));
+            }
+            set {
+                this["MemberID"] = value;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("000")]
+        public string ManagerID {
+            get {
+                return ((string)(this["ManagerID"]));
+            }
+        }
     }
 }

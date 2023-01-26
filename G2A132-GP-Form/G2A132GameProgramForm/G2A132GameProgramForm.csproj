@@ -102,6 +102,11 @@
     <Compile Include="Product_Page.Designer.cs">
       <DependentUpon>Product_Page.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="PurchaseCart_Page.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -205,14 +210,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -303,6 +303,78 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SwitchLite-Turquoise.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-CRISISCODE-FFVII-REUNION.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-DRAGONQUEST-X-Offline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-EarthDefenseForces6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-ONEPIECE-ODYSSEY.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-TheLegendOfHeroesII-Crimson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-CRISISCODE-FFVII-REUNION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-ONEPIECE-ODYSSEY.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-CRISISCODE-FFVII-REUNION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-DRAGONQUEST-TREASURES.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-MarioKart8Deluxe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-MINECRAFT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-MonsterHunterRise.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-MonsterHunterRise-SunBreakSet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SwitchNormal-Black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-Persona5-TheRoyal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-Pokemon-Scarlet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-Pokemon-Violet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-SmashBros-Special.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-Splatoon3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-Xenoblade2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-Xenoblade3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-Xenoblade-DefinitiveEdition.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-YuGiOh-RushDuelSpecialEdition.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GEO-Logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

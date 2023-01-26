@@ -9,7 +9,7 @@ namespace G2A132GameProgramForm
     static class Program
     {
         
-        public static ApplicationContext _mainFormContext;
+        private static ApplicationContext _mainFormContext;
         /// <summary>
         /// アプリケーションのメイン エントリ ポイントです。
         /// </summary>
@@ -21,6 +21,16 @@ namespace G2A132GameProgramForm
             _mainFormContext = new ApplicationContext();
             _mainFormContext.MainForm = new Main_Page();
             Application.Run(_mainFormContext);
+        }
+
+        public static void SetMainForm(Form setMainForm)
+        {
+            _mainFormContext.MainForm =  setMainForm;
+        }
+
+        public static Form GetMainForm()
+        {
+            return _mainFormContext.MainForm;
         }
     }
 }

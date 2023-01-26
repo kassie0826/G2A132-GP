@@ -7,6 +7,7 @@ using System.Data.SQLite;
 
 namespace G2A132GameProgramForm
 {
+    
     public partial class NewMember_Page : Form
     {
         // フォームが生成されたときに呼び出される
@@ -154,9 +155,11 @@ namespace G2A132GameProgramForm
                 if (discardCheck == DialogResult.Yes)
                 {
                     // メインページをメインフォームに設定
-                    Program._mainFormContext.MainForm = new Main_Page();
+                    Program.SetMainForm(new Main_Page());
+                    // 現在のメインフォームを取得 (直前で設定したフォーム)
+                    Form mainPageOpen = Program.GetMainForm();
                     // メインページを開く
-                    Program._mainFormContext.MainForm.Show();
+                    mainPageOpen.Show();
                     // 新規会員登録ページを閉じる
                     this.Close();
                 }
@@ -164,9 +167,11 @@ namespace G2A132GameProgramForm
             else
             {
                 // メインページをメインフォームに設定
-                Program._mainFormContext.MainForm = new Main_Page();
+                Program.SetMainForm(new Main_Page());
+                // 現在のメインフォームを取得 (直前で設定したフォーム)
+                Form mainPageOpen = Program.GetMainForm();
                 // メインページを開く
-                Program._mainFormContext.MainForm.Show();
+                mainPageOpen.Show();
                 // 新規会員登録ページを閉じる
                 this.Close();
             }
@@ -356,8 +361,27 @@ namespace G2A132GameProgramForm
             else if (emptyPositionInfoVolume2[0] == 0)
             {
                 // 登録処理
-                
+                using (SQLiteConnection registerCheck = new SQLiteConnection("Data Source=GERO.db"))
+                {
+                    DataTable dataTableRegisterCheck = new DataTable();
+                    SQLiteDataAdapter adapterRegisterCheck = new SQLiteDataAdapter("SELECT MemberID, MemberEmailAddress FROM member_info where MemberID = ", textBox_MemberID, "AND MemberEmailAddress = ", textBox_EmailAddress, registerCheck);
+                    adapterRegisterCheck.Fill(dataTableRegisterCheck);
+                    switch ()
+                    {
+
+                    }
+                    dataTableRegisterCheck.Rows[1][0].ToString();
+
+                    registerSQL.Open();
+                    using (SQLiteCommand command = registerSQL.CreateCommand())
+                    {
+                        command.CommandText = "insert ignore into member_if(MemberID, MemberPassword, MemberLastName, MemberFirstName, MemberFuriganaLastName, MemberFuriganaFirstName, MemberDateOfBirth, MemberAddress, MemberPhoneNumber, MemberEmailAddress) VALUE (000, aaaaaaaa, 田中, 太郎, タナカ, タロウ, 20030401, 札幌市中央区北1条西2丁目, 011-222-4894, 20217099-TanakaTarou@hcs.ac.jp)";
+                        command.ExecuteNonQuery();
+                    }
+                    registerSQL.Close();
+                }
                 // 登録成功通知
+                // 登録失敗通知
             }
         }
 
