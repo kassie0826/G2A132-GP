@@ -53,6 +53,9 @@ namespace G2A132GameProgramForm
             this.button_ChangeInfoVolume2 = new System.Windows.Forms.Button();
             this.button_BackMainPage = new System.Windows.Forms.Button();
             this.groupBox_InfoVolume1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox_InfoVolume2 = new System.Windows.Forms.GroupBox();
             this.button_BackInfoVolume1 = new System.Windows.Forms.Button();
             this.button_NewMemberRegister = new System.Windows.Forms.Button();
@@ -66,9 +69,6 @@ namespace G2A132GameProgramForm
             this.label_MemberIDNotes = new System.Windows.Forms.Label();
             this.textBox_MemberID = new System.Windows.Forms.TextBox();
             this.label_MemberID = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.groupBox_InfoVolume1.SuspendLayout();
             this.groupBox_InfoVolume2.SuspendLayout();
             this.SuspendLayout();
@@ -324,11 +324,41 @@ namespace G2A132GameProgramForm
             this.groupBox_InfoVolume1.Controls.Add(this.textBox_FirstName);
             this.groupBox_InfoVolume1.Controls.Add(this.label_LastName);
             this.groupBox_InfoVolume1.Controls.Add(this.textBox_LastName);
-            this.groupBox_InfoVolume1.Location = new System.Drawing.Point(46, 77);
+            this.groupBox_InfoVolume1.Location = new System.Drawing.Point(45, 77);
             this.groupBox_InfoVolume1.Name = "groupBox_InfoVolume1";
             this.groupBox_InfoVolume1.Size = new System.Drawing.Size(706, 352);
             this.groupBox_InfoVolume1.TabIndex = 23;
             this.groupBox_InfoVolume1.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label3.Location = new System.Drawing.Point(549, 113);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(25, 17);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "日";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label2.Location = new System.Drawing.Point(408, 113);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(25, 17);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "月";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.Location = new System.Drawing.Point(265, 113);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(25, 17);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "年";
             // 
             // groupBox_InfoVolume2
             // 
@@ -344,7 +374,7 @@ namespace G2A132GameProgramForm
             this.groupBox_InfoVolume2.Controls.Add(this.label_MemberIDNotes);
             this.groupBox_InfoVolume2.Controls.Add(this.textBox_MemberID);
             this.groupBox_InfoVolume2.Controls.Add(this.label_MemberID);
-            this.groupBox_InfoVolume2.Location = new System.Drawing.Point(46, 77);
+            this.groupBox_InfoVolume2.Location = new System.Drawing.Point(45, 77);
             this.groupBox_InfoVolume2.Name = "groupBox_InfoVolume2";
             this.groupBox_InfoVolume2.Size = new System.Drawing.Size(706, 352);
             this.groupBox_InfoVolume2.TabIndex = 24;
@@ -463,36 +493,6 @@ namespace G2A132GameProgramForm
             this.label_MemberID.Size = new System.Drawing.Size(57, 17);
             this.label_MemberID.TabIndex = 10;
             this.label_MemberID.Text = "会員ID";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label1.Location = new System.Drawing.Point(265, 113);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(25, 17);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "年";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label2.Location = new System.Drawing.Point(408, 113);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 17);
-            this.label2.TabIndex = 26;
-            this.label2.Text = "月";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.Location = new System.Drawing.Point(549, 113);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(25, 17);
-            this.label3.TabIndex = 27;
-            this.label3.Text = "日";
             // 
             // NewMember_Page
             // 

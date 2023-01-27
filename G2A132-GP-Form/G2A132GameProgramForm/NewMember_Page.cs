@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
+using System.Linq;
 
 namespace G2A132GameProgramForm
 {
@@ -296,6 +297,7 @@ namespace G2A132GameProgramForm
             // 1ページ目の項目が全て空ではなかった時
             else if (emptyPositionInfoVolume1[0] == 0)
             {
+                groupBox_InfoVolume2.BringToFront();
                 // 2ページ目の表示処理
                 groupBox_InfoVolume2.Visible = true;
             }
@@ -361,24 +363,20 @@ namespace G2A132GameProgramForm
             else if (emptyPositionInfoVolume2[0] == 0)
             {
                 // 登録処理
-                using (SQLiteConnection registerCheck = new SQLiteConnection("Data Source=GERO.db"))
+                using (SQLiteConnection registerCheck = new SQLiteConnection("Data Source=GEO.db"))
                 {
                     DataTable dataTableRegisterCheck = new DataTable();
-                    SQLiteDataAdapter adapterRegisterCheck = new SQLiteDataAdapter("SELECT MemberID, MemberEmailAddress FROM member_info where MemberID = ", textBox_MemberID, "AND MemberEmailAddress = ", textBox_EmailAddress, registerCheck);
+                    SQLiteDataAdapter adapterRegisterCheck = new SQLiteDataAdapter($"SELECT EXISTS(SELECT MemberID, MemberEmailAddress FROM member_info where MemberID = {textBox_MemberID.Text} LIMIT 1)", registerCheck);
                     adapterRegisterCheck.Fill(dataTableRegisterCheck);
-                    switch ()
-                    {
+                    Console.WriteLine(int.Parse(dataTableRegisterCheck.Rows[1][0].ToString()));
 
-                    }
-                    dataTableRegisterCheck.Rows[1][0].ToString();
-
-                    registerSQL.Open();
-                    using (SQLiteCommand command = registerSQL.CreateCommand())
-                    {
-                        command.CommandText = "insert ignore into member_if(MemberID, MemberPassword, MemberLastName, MemberFirstName, MemberFuriganaLastName, MemberFuriganaFirstName, MemberDateOfBirth, MemberAddress, MemberPhoneNumber, MemberEmailAddress) VALUE (000, aaaaaaaa, 田中, 太郎, タナカ, タロウ, 20030401, 札幌市中央区北1条西2丁目, 011-222-4894, 20217099-TanakaTarou@hcs.ac.jp)";
-                        command.ExecuteNonQuery();
-                    }
-                    registerSQL.Close();
+                    //registerSQL.Open();
+                    //using (SQLiteCommand command = registerSQL.CreateCommand())
+                    //{
+                    //    command.CommandText = "insert ignore into member_if(MemberID, MemberPassword, MemberLastName, MemberFirstName, MemberFuriganaLastName, MemberFuriganaFirstName, MemberDateOfBirth, MemberAddress, MemberPhoneNumber, MemberEmailAddress) VALUE (000, aaaaaaaa, 田中, 太郎, タナカ, タロウ, 20030401, 札幌市中央区北1条西2丁目, 011-222-4894, 20217099-TanakaTarou@hcs.ac.jp)";
+                    //    command.ExecuteNonQuery();
+                    //}
+                    //registerSQL.Close();
                 }
                 // 登録成功通知
                 // 登録失敗通知

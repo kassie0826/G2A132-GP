@@ -53,14 +53,16 @@ namespace G2A132GameProgramForm
 
         private void btnChengeDB_Click(object sender, EventArgs e)
         {
-            using (var startSQL = new SQLiteConnection("Data Source=GERO.db"))
+            using (var startSQL = new SQLiteConnection("Data Source=GEO.db"))
             {
                 startSQL.Open();
                 using (SQLiteCommand command = startSQL.CreateCommand())
                 {
-                    command.CommandText = "create table if not exists member_info(CD INTEGER AUTOINCREMENT, MemberID TEXT not null, MemberPassword TEXT not null, MemberLastName TEXT not null, MemberFirstName TEXT not null, MemberFuriganaLastName TEXT not null, MemberFuriganaFirstName TEXT not null, MemberDateOfBirth INTEGER not null, MemberAddress TEXT not null, MemberPhoneNumber INTEGER not null, MemberEmailAddress TEXT not null, PRIMARY KEY(CD, MemberID, MemberEmailAddress))";
+                    command.CommandText = "create table if not exists member_info(CD INTEGER PRIMARY KEY AUTOINCREMENT, MemberID TEXT not null, MemberPassword TEXT not null, MemberLastName TEXT not null, MemberFirstName TEXT not null, MemberFuriganaLastName TEXT not null, MemberFuriganaFirstName TEXT not null, MemberDateOfBirth INTEGER not null, MemberAddress TEXT not null, MemberPhoneNumber INTEGER not null, MemberEmailAddress TEXT not null, primary key(MemberID, MemberEmailAddress))";
                     command.ExecuteNonQuery();
-                    command.CommandText = "insert ignore into member_info(MemberID, MemberPassword, MemberLastName, MemberFirstName, MemberFuriganaLastName, MemberFuriganaFirstName, MemberDateOfBirth, MemberAddress, MemberPhoneNumber, MemberEmailAddress) VALUE (000, aaaaaaaa, 田中, 太郎, タナカ, タロウ, 20030401, 札幌市中央区北1条西2丁目, 011-222-4894, 20217099-TanakaTarou@hcs.ac.jp)";
+                    command.CommandText = "insert or ignore into " +
+                        "member_info(MemberID, MemberPassword, MemberLastName, MemberFirstName, MemberFuriganaLastName, MemberFuriganaFirstName, MemberDateOfBirth, MemberAddress, MemberPhoneNumber, MemberEmailAddress) " +
+                        "VALUE (000, aaaaaaaa, 田中, 太郎, タナカ, タロウ, 20030401, 札幌市中央区北1条西2丁目, 0112224894, 20217099-TanakaTarou@hcs.ac.jp)";
                     command.ExecuteNonQuery();
                     command.CommandText = "create table if not exists product_class(ClassID INTEGER not null PRIMARY KEY, ClassName TEXT not null)";
                     command.ExecuteNonQuery();
