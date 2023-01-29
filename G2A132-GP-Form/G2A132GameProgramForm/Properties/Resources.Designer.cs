@@ -73,6 +73,956 @@ namespace G2A132GameProgramForm.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
+        internal static System.Drawing.Bitmap PS4_AssasinsCreedOrigins {
+            get {
+                object obj = ResourceManager.GetObject("PS4_AssasinsCreedOrigins", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_AtelierRyza2 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_AtelierRyza2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_BIOHAZARD_7 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_BIOHAZARD_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_BIOHAZARD_RE3 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_BIOHAZARD_RE3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_BIOHAZARD_RE4 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_BIOHAZARD_RE4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_BIOHAZARD_VILLAGE {
+            get {
+                object obj = ResourceManager.GetObject("PS4_BIOHAZARD_VILLAGE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_CRISISCODE_FF_VII_REUNION {
+            get {
+                object obj = ResourceManager.GetObject("PS4_CRISISCODE_FF_VII_REUNION", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_DarkSouls_III {
+            get {
+                object obj = ResourceManager.GetObject("PS4_DarkSouls_III", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_DRAGONQUEST_X_Offline {
+            get {
+                object obj = ResourceManager.GetObject("PS4_DRAGONQUEST_X_Offline", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_DragonQuest_XI {
+            get {
+                object obj = ResourceManager.GetObject("PS4_DragonQuest_XI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_DragonQuestBuilders_2 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_DragonQuestBuilders_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_EarthDefenseForces_6 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_EarthDefenseForces_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_Fallout_4 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_Fallout_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_FARCRY_5 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_FARCRY_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_FIFA_23 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_FIFA_23", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_FINALFANTASY_XV {
+            get {
+                object obj = ResourceManager.GetObject("PS4_FINALFANTASY_XV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_GodOfWar {
+            get {
+                object obj = ResourceManager.GetObject("PS4_GodOfWar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_GrandTheftAuto_V {
+            get {
+                object obj = ResourceManager.GetObject("PS4_GrandTheftAuto_V", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_HogwartsLegacy {
+            get {
+                object obj = ResourceManager.GetObject("PS4_HogwartsLegacy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_HorizonZeroDawn {
+            get {
+                object obj = ResourceManager.GetObject("PS4_HorizonZeroDawn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_HumanFallFlat {
+            get {
+                object obj = ResourceManager.GetObject("PS4_HumanFallFlat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_JudgeEyes {
+            get {
+                object obj = ResourceManager.GetObject("PS4_JudgeEyes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_KingdomHearts_III {
+            get {
+                object obj = ResourceManager.GetObject("PS4_KingdomHearts_III", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_KingdomHeartsHD_1_5_2_5 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_KingdomHeartsHD_1_5_2_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_KingdomHeartsHD_2_8 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_KingdomHeartsHD_2_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_Marvels_Spider_man {
+            get {
+                object obj = ResourceManager.GetObject("PS4_Marvels_Spider_man", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_Minecraft {
+            get {
+                object obj = ResourceManager.GetObject("PS4_Minecraft", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_MirrorsEdge_Catalyst {
+            get {
+                object obj = ResourceManager.GetObject("PS4_MirrorsEdge_Catalyst", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_NieR_Replicant_ver_1_22474487139 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_NieR_Replicant_ver_1_22474487139", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_NiNoKuni_II {
+            get {
+                object obj = ResourceManager.GetObject("PS4_NiNoKuni_II", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_ONEPIECE_ODYSSEY {
+            get {
+                object obj = ResourceManager.GetObject("PS4_ONEPIECE_ODYSSEY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_PERSONA_5 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_PERSONA_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_PHYCHOBREAK {
+            get {
+                object obj = ResourceManager.GetObject("PS4_PHYCHOBREAK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_PIXARK {
+            get {
+                object obj = ResourceManager.GetObject("PS4_PIXARK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_PSYCHOBREAK_2 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_PSYCHOBREAK_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_PuyoPuyoTetris_2 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_PuyoPuyoTetris_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_StreetFighter_30thAnniversaryCollection {
+            get {
+                object obj = ResourceManager.GetObject("PS4_StreetFighter_30thAnniversaryCollection", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_Subnautica {
+            get {
+                object obj = ResourceManager.GetObject("PS4_Subnautica", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_TALESofARISE {
+            get {
+                object obj = ResourceManager.GetObject("PS4_TALESofARISE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_TheLastOfUs_Remasterd {
+            get {
+                object obj = ResourceManager.GetObject("PS4_TheLastOfUs_Remasterd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_TheLegendOfHeroesII_Crimson {
+            get {
+                object obj = ResourceManager.GetObject("PS4_TheLegendOfHeroesII_Crimson", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_TheWitcher_III {
+            get {
+                object obj = ResourceManager.GetObject("PS4_TheWitcher_III", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_TitanFall_2 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_TitanFall_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_WatchDogs {
+            get {
+                object obj = ResourceManager.GetObject("PS4_WatchDogs", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_WatchDogs_2 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_WatchDogs_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_WatchDogs_Legion {
+            get {
+                object obj = ResourceManager.GetObject("PS4_WatchDogs_Legion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_Yakuza_0 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_Yakuza_0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_Yakuza_2 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_Yakuza_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_Yakuza_3 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_Yakuza_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_Yakuza_4 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_Yakuza_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_Yakuza_5 {
+            get {
+                object obj = ResourceManager.GetObject("PS4_Yakuza_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_Yomawari_LostInTheDark {
+            get {
+                object obj = ResourceManager.GetObject("PS4_Yomawari_LostInTheDark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_Yomawari_MidnightShadows {
+            get {
+                object obj = ResourceManager.GetObject("PS4_Yomawari_MidnightShadows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_BIOHAZARD_VILLAGE {
+            get {
+                object obj = ResourceManager.GetObject("PS5_BIOHAZARD_VILLAGE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_CallOfDuty_ModernWarfare_II {
+            get {
+                object obj = ResourceManager.GetObject("PS5_CallOfDuty_ModernWarfare_II", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_CRISISCODE_FF_VII_REUNION {
+            get {
+                object obj = ResourceManager.GetObject("PS5_CRISISCODE_FF_VII_REUNION", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_DragonQuestX_Offline {
+            get {
+                object obj = ResourceManager.GetObject("PS5_DragonQuestX_Offline", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_DyingLight_2 {
+            get {
+                object obj = ResourceManager.GetObject("PS5_DyingLight_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_EarthDefenseForces_6 {
+            get {
+                object obj = ResourceManager.GetObject("PS5_EarthDefenseForces_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_EldenRing {
+            get {
+                object obj = ResourceManager.GetObject("PS5_EldenRing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_FARCRY_6 {
+            get {
+                object obj = ResourceManager.GetObject("PS5_FARCRY_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_FINALFANTASY_XVI {
+            get {
+                object obj = ResourceManager.GetObject("PS5_FINALFANTASY_XVI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_GrandTheftAuto_V {
+            get {
+                object obj = ResourceManager.GetObject("PS5_GrandTheftAuto_V", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_HogwartsLegacy {
+            get {
+                object obj = ResourceManager.GetObject("PS5_HogwartsLegacy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_HorizonForbiddenWest {
+            get {
+                object obj = ResourceManager.GetObject("PS5_HorizonForbiddenWest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_JudgeEyes {
+            get {
+                object obj = ResourceManager.GetObject("PS5_JudgeEyes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_LostJudgment {
+            get {
+                object obj = ResourceManager.GetObject("PS5_LostJudgment", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_Marvels_Spider_Man {
+            get {
+                object obj = ResourceManager.GetObject("PS5_Marvels_Spider_Man", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_Minecraft_Legends {
+            get {
+                object obj = ResourceManager.GetObject("PS5_Minecraft_Legends", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_NBA_2K23 {
+            get {
+                object obj = ResourceManager.GetObject("PS5_NBA_2K23", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_NoMansSky {
+            get {
+                object obj = ResourceManager.GetObject("PS5_NoMansSky", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_ONEPIECE_ODYSSEY {
+            get {
+                object obj = ResourceManager.GetObject("PS5_ONEPIECE_ODYSSEY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_PuyoPuyoTetris_2 {
+            get {
+                object obj = ResourceManager.GetObject("PS5_PuyoPuyoTetris_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_TALESofARISE {
+            get {
+                object obj = ResourceManager.GetObject("PS5_TALESofARISE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5_WatchDogs_Legion {
+            get {
+                object obj = ResourceManager.GetObject("PS5_WatchDogs_Legion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_CRISISCODE_FF_VII_REUNION {
+            get {
+                object obj = ResourceManager.GetObject("Switch_CRISISCODE_FF_VII_REUNION", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_DRAGONQUEST_TREASURES {
+            get {
+                object obj = ResourceManager.GetObject("Switch_DRAGONQUEST_TREASURES", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_MarioKart8Deluxe {
+            get {
+                object obj = ResourceManager.GetObject("Switch_MarioKart8Deluxe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_MINECRAFT {
+            get {
+                object obj = ResourceManager.GetObject("Switch_MINECRAFT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_MonsterHunterRise {
+            get {
+                object obj = ResourceManager.GetObject("Switch_MonsterHunterRise", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_MonsterHunterRise_SunBreakSet {
+            get {
+                object obj = ResourceManager.GetObject("Switch_MonsterHunterRise_SunBreakSet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_Persona_5_TheRoyal {
+            get {
+                object obj = ResourceManager.GetObject("Switch_Persona_5_TheRoyal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_Pokemon_Scarlet {
+            get {
+                object obj = ResourceManager.GetObject("Switch_Pokemon_Scarlet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_Pokemon_Violet {
+            get {
+                object obj = ResourceManager.GetObject("Switch_Pokemon_Violet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_SmashBros_Special {
+            get {
+                object obj = ResourceManager.GetObject("Switch_SmashBros_Special", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_Splatoon3 {
+            get {
+                object obj = ResourceManager.GetObject("Switch_Splatoon3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_Xenoblade_2 {
+            get {
+                object obj = ResourceManager.GetObject("Switch_Xenoblade_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_Xenoblade_3 {
+            get {
+                object obj = ResourceManager.GetObject("Switch_Xenoblade_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_Xenoblade_DefinitiveEdition {
+            get {
+                object obj = ResourceManager.GetObject("Switch_Xenoblade_DefinitiveEdition", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Switch_YuGiOh_RushDuelSpecialEdition {
+            get {
+                object obj = ResourceManager.GetObject("Switch_YuGiOh_RushDuelSpecialEdition", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap SwitchLite_Coral {
+            get {
+                object obj = ResourceManager.GetObject("SwitchLite_Coral", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap SwitchLite_Turquoise {
+            get {
+                object obj = ResourceManager.GetObject("SwitchLite_Turquoise", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap SwitchNormal_Black {
+            get {
+                object obj = ResourceManager.GetObject("SwitchNormal_Black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap SwitchOLED_Black {
+            get {
+                object obj = ResourceManager.GetObject("SwitchOLED_Black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap SwitchOLED_White {
+            get {
+                object obj = ResourceManager.GetObject("SwitchOLED_White", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
         internal static System.Drawing.Bitmap text_noclaim_noreturn {
             get {
                 object obj = ResourceManager.GetObject("text_noclaim_noreturn", resourceCulture);

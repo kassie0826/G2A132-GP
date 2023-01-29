@@ -121,6 +121,291 @@
   <data name="GEO_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GEO-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PS4_AssasinsCreedOrigins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-AssasinsCreedOrigins.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_AtelierRyza2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-AtelierRyza2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_BIOHAZARD_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-BIOHAZARD_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_BIOHAZARD_RE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-BIOHAZARD_RE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_BIOHAZARD_RE4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-BIOHAZARD_RE4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_BIOHAZARD_VILLAGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-BIOHAZARD_VILLAGE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_CRISISCODE_FF_VII_REUNION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-CRISISCODE-FF_VII-REUNION.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_DarkSouls_III" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-DarkSouls_III.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_DragonQuestBuilders_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-DragonQuestBuilders_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_DragonQuest_XI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-DragonQuest_XI.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_DRAGONQUEST_X_Offline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-DRAGONQUEST_X-Offline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_EarthDefenseForces_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-EarthDefenseForces_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_Fallout_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-Fallout_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_FARCRY_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-FARCRY_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_FIFA_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-FIFA_23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_FINALFANTASY_XV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-FINALFANTASY_XV.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_GodOfWar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-GodOfWar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_GrandTheftAuto_V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-GrandTheftAuto_V.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_HogwartsLegacy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-HogwartsLegacy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_HorizonZeroDawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-HorizonZeroDawn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_HumanFallFlat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-HumanFallFlat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_JudgeEyes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-JudgeEyes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_KingdomHeartsHD_1_5_2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-KingdomHeartsHD_1.5+2.5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_KingdomHeartsHD_2_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-KingdomHeartsHD_2.8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_KingdomHearts_III" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-KingdomHearts_III.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_Marvels_Spider_man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-Marvels_Spider-man.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_Minecraft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-Minecraft.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_MirrorsEdge_Catalyst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-MirrorsEdge_Catalyst.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_NieR_Replicant_ver_1_22474487139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-NieR_Replicant_ver.1.22474487139.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_NiNoKuni_II" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-NiNoKuni_II.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_ONEPIECE_ODYSSEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-ONEPIECE-ODYSSEY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_PERSONA_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-PERSONA_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_PHYCHOBREAK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-PHYCHOBREAK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_PIXARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-PIXARK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_PSYCHOBREAK_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-PSYCHOBREAK_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_PuyoPuyoTetris_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-PuyoPuyoTetris_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_StreetFighter_30thAnniversaryCollection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-StreetFighter_30thAnniversaryCollection.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_Subnautica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-Subnautica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_TALESofARISE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-TALESofARISE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_TheLastOfUs_Remasterd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-TheLastOfUs_Remasterd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_TheLegendOfHeroesII_Crimson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-TheLegendOfHeroesII-Crimson.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_TheWitcher_III" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-TheWitcher_III.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_TitanFall_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-TitanFall_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_WatchDogs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-WatchDogs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_WatchDogs_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-WatchDogs_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_WatchDogs_Legion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-WatchDogs_Legion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_Yakuza_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-Yakuza_0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_Yakuza_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-Yakuza_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_Yakuza_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-Yakuza_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_Yakuza_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-Yakuza_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_Yakuza_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-Yakuza_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_Yomawari_LostInTheDark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-Yomawari_LostInTheDark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_Yomawari_MidnightShadows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-Yomawari_MidnightShadows.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_BIOHAZARD_VILLAGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-BIOHAZARD_VILLAGE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_CallOfDuty_ModernWarfare_II" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-CallOfDuty_ModernWarfare_II.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_CRISISCODE_FF_VII_REUNION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-CRISISCODE-FF_VII-REUNION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_DragonQuestX_Offline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-DragonQuestX_Offline.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_DyingLight_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-DyingLight_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_EarthDefenseForces_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-EarthDefenseForces_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_EldenRing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-EldenRing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_FARCRY_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-FARCRY_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_FINALFANTASY_XVI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-FINALFANTASY_XVI.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_GrandTheftAuto_V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-GrandTheftAuto_V.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_HogwartsLegacy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-HogwartsLegacy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_HorizonForbiddenWest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-HorizonForbiddenWest.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_JudgeEyes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-JudgeEyes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_LostJudgment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-LostJudgment.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_Marvels_Spider_Man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-Marvels_Spider-Man.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_Minecraft_Legends" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-Minecraft_Legends.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_NBA_2K23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-NBA_2K23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_NoMansSky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-NoMansSky.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_ONEPIECE_ODYSSEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-ONEPIECE-ODYSSEY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_PuyoPuyoTetris_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-PuyoPuyoTetris_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_TALESofARISE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-TALESofARISE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5_WatchDogs_Legion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5-WatchDogs_Legion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SwitchLite_Coral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SwitchLite-Coral.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SwitchLite_Turquoise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SwitchLite-Turquoise.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SwitchNormal_Black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SwitchNormal-Black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SwitchOLED_Black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SwitchOLED-Black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SwitchOLED_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SwitchOLED-White.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_CRISISCODE_FF_VII_REUNION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-CRISISCODE-FF_VII-REUNION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_DRAGONQUEST_TREASURES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-DRAGONQUEST_TREASURES.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_MarioKart8Deluxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-MarioKart8Deluxe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_MINECRAFT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-MINECRAFT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_MonsterHunterRise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-MonsterHunterRise.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_MonsterHunterRise_SunBreakSet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-MonsterHunterRise-SunBreakSet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_Persona_5_TheRoyal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-Persona_5-TheRoyal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_Pokemon_Scarlet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-Pokemon-Scarlet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_Pokemon_Violet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-Pokemon-Violet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_SmashBros_Special" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-SmashBros-Special.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_Splatoon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-Splatoon3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_Xenoblade_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-Xenoblade_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_Xenoblade_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-Xenoblade_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_Xenoblade_DefinitiveEdition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-Xenoblade_DefinitiveEdition.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch_YuGiOh_RushDuelSpecialEdition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Switch-YuGiOh-RushDuelSpecialEdition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="text_noclaim_noreturn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\text_noclaim_noreturn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

@@ -376,6 +376,240 @@
   <ItemGroup>
     <None Include="Resources\GEO-Logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-Persona_5-TheRoyal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-Xenoblade_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-Xenoblade_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-Xenoblade_DefinitiveEdition.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-CRISISCODE-FF_VII-REUNION.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-DRAGONQUEST_X-Offline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-EarthDefenseForces_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-CRISISCODE-FF_VII-REUNION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-CRISISCODE-FF_VII-REUNION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch-DRAGONQUEST_TREASURES.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-AssasinsCreedOrigins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-AtelierRyza2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-BIOHAZARD_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-BIOHAZARD_RE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-BIOHAZARD_RE4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-BIOHAZARD_VILLAGE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-DarkSouls_III.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-DragonQuest_XI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-DragonQuestBuilders_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-Fallout_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-FARCRY_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-FIFA_23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-FINALFANTASY_XV.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-GodOfWar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-GrandTheftAuto_V.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-HogwartsLegacy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-HorizonZeroDawn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-HumanFallFlat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-JudgeEyes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-KingdomHearts_III.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-KingdomHeartsHD_1.5+2.5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-KingdomHeartsHD_2.8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-Marvels_Spider-man.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-Minecraft.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-MirrorsEdge_Catalyst.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-NieR_Replicant_ver.1.22474487139.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-NiNoKuni_II.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-PERSONA_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-PHYCHOBREAK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-PIXARK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-PSYCHOBREAK_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-PuyoPuyoTetris_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-StreetFighter_30thAnniversaryCollection.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-Subnautica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-TALESofARISE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-TheLastOfUs_Remasterd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-TheWitcher_III.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-TitanFall_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-WatchDogs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-WatchDogs_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-WatchDogs_Legion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-Yakuza_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-Yakuza_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-Yakuza_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-Yakuza_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-Yakuza_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-Yomawari_LostInTheDark.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-Yomawari_MidnightShadows.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-BIOHAZARD_VILLAGE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-CallOfDuty_ModernWarfare_II.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-DragonQuestX_Offline.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-DyingLight_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-EarthDefenseForces_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-EldenRing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-FARCRY_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-FINALFANTASY_XVI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-GrandTheftAuto_V.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-HogwartsLegacy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-HorizonForbiddenWest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-JudgeEyes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-LostJudgment.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-Marvels_Spider-Man.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-Minecraft_Legends.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-NBA_2K23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-NoMansSky.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-PuyoPuyoTetris_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-TALESofARISE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5-WatchDogs_Legion.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
