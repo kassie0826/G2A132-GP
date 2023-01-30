@@ -610,6 +610,18 @@
   <ItemGroup>
     <None Include="Resources\PS5-WatchDogs_Legion.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4-AssassinsCreedOrigins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS4_Pro.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

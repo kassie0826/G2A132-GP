@@ -363,23 +363,79 @@ namespace G2A132GameProgramForm
             else if (emptyPositionInfoVolume2[0] == 0)
             {
                 // 登録処理
-                using (SQLiteConnection registerCheck = new SQLiteConnection("Data Source=GEO.db"))
+                using (SQLiteConnection registerSQL = new SQLiteConnection("Data Source=GEO.db"))
                 {
-                    DataTable dataTableRegisterCheck = new DataTable();
-                    SQLiteDataAdapter adapterRegisterCheck = new SQLiteDataAdapter($"SELECT EXISTS(SELECT MemberID, MemberEmailAddress FROM member_info where MemberID = {textBox_MemberID.Text} LIMIT 1)", registerCheck);
-                    adapterRegisterCheck.Fill(dataTableRegisterCheck);
-                    Console.WriteLine(int.Parse(dataTableRegisterCheck.Rows[1][0].ToString()));
+                    DataTable dataTableIDCheck = new DataTable();
+                    SQLiteDataAdapter adapterRegisterCheck = new SQLiteDataAdapter($"SELECT EXISTS(SELECT CD FROM member_info WHERE MemberID = {textBox_MemberID.Text} LIMIT 1) AS IDCheck", registerSQL);
+                    adapterRegisterCheck.Fill(dataTableIDCheck);
+                    Console.WriteLine(dataTableIDCheck.Rows[0]["IDCheck"].ToString());
+                    if (int.Parse(dataTableIDCheck.Rows[0]["IDCheck"].ToString()) != 0)
+                    {
+                        MessageBox.Show("入力された会員IDは既に使用されています。", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        return;
+                    }
+                    DataTable dataTableEmailCheck = new DataTable();
+                    adapterRegisterCheck = new SQLiteDataAdapter($"SELECT EXISTS(SELECT * FROM member_info WHERE MemberEmailAddress = {textBox_EmailAddress.Text} LIMIT 1) AS EmailCheck", registerSQL);
+                    adapterRegisterCheck.Fill(dataTableEmailCheck);
+                    Console.WriteLine(dataTableEmailCheck.Rows[0]["EmailCheck"].ToString());
+                    if (int.Parse(dataTableEmailCheck.Rows[0]["EmailCheck"].ToString()) != 0)
+                    {
+                        MessageBox.Show("入力されたメールアドレスは既に使用されています。", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        return;
+                    }
 
-                    //registerSQL.Open();
-                    //using (SQLiteCommand command = registerSQL.CreateCommand())
-                    //{
-                    //    command.CommandText = "insert ignore into member_if(MemberID, MemberPassword, MemberLastName, MemberFirstName, MemberFuriganaLastName, MemberFuriganaFirstName, MemberDateOfBirth, MemberAddress, MemberPhoneNumber, MemberEmailAddress) VALUE (000, aaaaaaaa, 田中, 太郎, タナカ, タロウ, 20030401, 札幌市中央区北1条西2丁目, 011-222-4894, 20217099-TanakaTarou@hcs.ac.jp)";
-                    //    command.ExecuteNonQuery();
-                    //}
-                    //registerSQL.Close();
+
+                    registerSQL.Open();
+                    using (SQLiteCommand command = registerSQL.CreateCommand())
+                    {
+                        command.CommandText = "insert or ignore into " +
+                        "member_info(MemberID, MemberPassword, MemberLastName, MemberFirstName, MemberFuriganaLastName, MemberFuriganaFirstName, MemberBirthYear, MemberBirthMonth, MemberBirthDate, MemberAddress, MemberPhoneNumberLead, MemberPhoneNumberMiddle, MemberPhoneNumberEnd, MemberEmailAddress) " +
+                        "VALUES (@id, @password, @lastname, @firstname, @furiganalastname, @furiganafirstname, @birthyear, @birthmonth, @birthdate, @address, @phonenumberlead, @phonenumbermiddle, @phonenumberend, @emailaddress)";
+                        command.Parameters.Add("id", System.Data.DbType.String);
+                        command.Parameters.Add("password", System.Data.DbType.String);
+                        command.Parameters.Add("lastname", System.Data.DbType.String);
+                        command.Parameters.Add("firstname", System.Data.DbType.String);
+                        command.Parameters.Add("furiganalastname", System.Data.DbType.String);
+                        command.Parameters.Add("furiganafirstname", System.Data.DbType.String);
+                        command.Parameters.Add("birthyear", System.Data.DbType.Int32);
+                        command.Parameters.Add("birthmonth", System.Data.DbType.Int32);
+                        command.Parameters.Add("birthdate", System.Data.DbType.Int32);
+                        command.Parameters.Add("address", System.Data.DbType.String);
+                        command.Parameters.Add("phonenumberlead", System.Data.DbType.String);
+                        command.Parameters.Add("phonenumbermiddle", System.Data.DbType.String);
+                        command.Parameters.Add("phonenumberend", System.Data.DbType.String);
+                        command.Parameters.Add("emailaddress", System.Data.DbType.String);
+
+                        command.Parameters["id"].Value = textBox_MemberID.Text;
+                        command.Parameters["password"].Value = textBox_Password.Text;
+                        command.Parameters["lastname"].Value = textBox_LastName.Text;
+                        command.Parameters["firstname"].Value = textBox_FirstName.Text;
+                        command.Parameters["furiganalastname"].Value = textBox_LastNameFurigana.Text;
+                        command.Parameters["furiganafirstname"].Value = textBox_FirstNameFurigana.Text;
+                        command.Parameters["birthyear"].Value = int.Parse(textBox_BirthYear.Text);
+                        command.Parameters["birthmonth"].Value = int.Parse(comboBox_BirthMonth.Text);
+                        command.Parameters["birthdate"].Value = int.Parse(textBox_BirthDate.Text);
+                        command.Parameters["address"].Value = textBox_Address.Text;
+                        command.Parameters["phonenumberlead"].Value = textBox_PhoneNumberLead;
+                        command.Parameters["phonenumbermiddle"].Value = textBox_PhoneNumberMiddle;
+                        command.Parameters["phonenumberend"].Value = textBox_PhoneNumberEnd.Text;
+                        command.Parameters["emailaddress"].Value = textBox_EmailAddress.Text;
+                        command.ExecuteNonQuery();
+                    }
+                    registerSQL.Close();
                 }
-                // 登録成功通知
-                // 登録失敗通知
+                DialogResult successRegister = MessageBox.Show("登録が完了しました。\n会員ID : " + textBox_MemberID.Text + "\n\nメインページへ戻ります。", "登録完了", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                if (successRegister == DialogResult.OK)
+                {
+                    // メインページをメインフォームに設定
+                    Program.SetMainForm(new Main_Page());
+                    // 現在のメインフォームを取得 (直前で設定したフォーム)
+                    Form mainPageOpen = Program.GetMainForm();
+                    // メインページを開く
+                    mainPageOpen.Show();
+                    // 新規会員登録ページを閉じる
+                    this.Close();
+                }
             }
         }
 

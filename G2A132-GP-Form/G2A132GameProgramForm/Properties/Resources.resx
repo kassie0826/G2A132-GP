@@ -121,8 +121,11 @@
   <data name="GEO_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GEO-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PS4_AssasinsCreedOrigins" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PS4-AssasinsCreedOrigins.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PS4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4_AssassinsCreedOrigins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4-AssassinsCreedOrigins.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PS4_AtelierRyza2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PS4-AtelierRyza2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,8 +223,8 @@
   <data name="PS4_PHYCHOBREAK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PS4-PHYCHOBREAK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PS4_PIXARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PS4-PIXARK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PS4_Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4_Pro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PS4_PSYCHOBREAK_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PS4-PSYCHOBREAK_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,26 +262,14 @@
   <data name="PS4_WatchDogs_Legion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PS4-WatchDogs_Legion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PS4_Yakuza_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PS4-Yakuza_0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PS4_Yakuza_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PS4-Yakuza_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PS4_Yakuza_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PS4-Yakuza_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PS4_Yakuza_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PS4-Yakuza_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PS4_Yakuza_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PS4-Yakuza_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="PS4_Yomawari_LostInTheDark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PS4-Yomawari_LostInTheDark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PS4_Yomawari_MidnightShadows" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PS4-Yomawari_MidnightShadows.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PS5_BIOHAZARD_VILLAGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PS5-BIOHAZARD_VILLAGE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -346,9 +337,6 @@
   <data name="PS5_WatchDogs_Legion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PS5-WatchDogs_Legion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SwitchLite_Coral" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SwitchLite-Coral.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="SwitchLite_Turquoise" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SwitchLite-Turquoise.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -357,9 +345,6 @@
   </data>
   <data name="SwitchOLED_Black" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SwitchOLED-Black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SwitchOLED_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SwitchOLED-White.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Switch_CRISISCODE_FF_VII_REUNION" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Switch-CRISISCODE-FF_VII-REUNION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

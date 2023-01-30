@@ -73,9 +73,19 @@ namespace G2A132GameProgramForm.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
-        internal static System.Drawing.Bitmap PS4_AssasinsCreedOrigins {
+        internal static System.Drawing.Bitmap PS4 {
             get {
-                object obj = ResourceManager.GetObject("PS4_AssasinsCreedOrigins", resourceCulture);
+                object obj = ResourceManager.GetObject("PS4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS4_AssassinsCreedOrigins {
+            get {
+                object obj = ResourceManager.GetObject("PS4_AssassinsCreedOrigins", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -403,9 +413,9 @@ namespace G2A132GameProgramForm.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
-        internal static System.Drawing.Bitmap PS4_PIXARK {
+        internal static System.Drawing.Bitmap PS4_Pro {
             get {
-                object obj = ResourceManager.GetObject("PS4_PIXARK", resourceCulture);
+                object obj = ResourceManager.GetObject("PS4_Pro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -533,56 +543,6 @@ namespace G2A132GameProgramForm.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
-        internal static System.Drawing.Bitmap PS4_Yakuza_0 {
-            get {
-                object obj = ResourceManager.GetObject("PS4_Yakuza_0", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static System.Drawing.Bitmap PS4_Yakuza_2 {
-            get {
-                object obj = ResourceManager.GetObject("PS4_Yakuza_2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static System.Drawing.Bitmap PS4_Yakuza_3 {
-            get {
-                object obj = ResourceManager.GetObject("PS4_Yakuza_3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static System.Drawing.Bitmap PS4_Yakuza_4 {
-            get {
-                object obj = ResourceManager.GetObject("PS4_Yakuza_4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static System.Drawing.Bitmap PS4_Yakuza_5 {
-            get {
-                object obj = ResourceManager.GetObject("PS4_Yakuza_5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
-        /// </summary>
         internal static System.Drawing.Bitmap PS4_Yomawari_LostInTheDark {
             get {
                 object obj = ResourceManager.GetObject("PS4_Yomawari_LostInTheDark", resourceCulture);
@@ -596,6 +556,16 @@ namespace G2A132GameProgramForm.Properties {
         internal static System.Drawing.Bitmap PS4_Yomawari_MidnightShadows {
             get {
                 object obj = ResourceManager.GetObject("PS4_Yomawari_MidnightShadows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap PS5 {
+            get {
+                object obj = ResourceManager.GetObject("PS5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -973,16 +943,6 @@ namespace G2A132GameProgramForm.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
-        internal static System.Drawing.Bitmap SwitchLite_Coral {
-            get {
-                object obj = ResourceManager.GetObject("SwitchLite_Coral", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
-        /// </summary>
         internal static System.Drawing.Bitmap SwitchLite_Turquoise {
             get {
                 object obj = ResourceManager.GetObject("SwitchLite_Turquoise", resourceCulture);
@@ -1006,16 +966,6 @@ namespace G2A132GameProgramForm.Properties {
         internal static System.Drawing.Bitmap SwitchOLED_Black {
             get {
                 object obj = ResourceManager.GetObject("SwitchOLED_Black", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static System.Drawing.Bitmap SwitchOLED_White {
-            get {
-                object obj = ResourceManager.GetObject("SwitchOLED_White", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -37,6 +37,21 @@ namespace G2A132GameProgramForm
             {
                 MessageBox.Show("パスワードが入力されていません。", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+            //Properties.Settings.Default.MemberID
+            //Properties.Settings.Default.ManagerID
+
+            //DialogResult successLogin = MessageBox.Show("登録が完了しました。\n会員ID : " + textBox_MemberID.Text + "\n\nメインページへ戻ります。", "登録完了", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            //if (successLogin == DialogResult.OK)
+            //{
+            // メインページをメインフォームに設定
+            //    Program.SetMainForm(new Main_Page());
+            // 現在のメインフォームを取得 (直前で設定したフォーム)
+            //    Form mainPageOpen = Program.GetMainForm();
+            // メインページを開く
+            //    mainPageOpen.Show();
+            // 新規会員登録ページを閉じる
+            //    this.Close();
+            //}
         }
 
         private void button_DispalySwitching_Click(object sender, EventArgs e)

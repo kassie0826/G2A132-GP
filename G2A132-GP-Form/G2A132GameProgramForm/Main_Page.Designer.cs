@@ -29,92 +29,82 @@ namespace G2A132GameProgramForm
         /// </summary>
         private void InitializeComponent()
         {
-            this.button_ChangeBuy = new System.Windows.Forms.Button();
-            this.button_ChangeRental = new System.Windows.Forms.Button();
-            this.button_ChangePurchase = new System.Windows.Forms.Button();
-            this.label_OnlinePopular = new System.Windows.Forms.Label();
-            this.label_RentalPopular = new System.Windows.Forms.Label();
-            this.button_Notice = new System.Windows.Forms.Button();
+            this.button_Soft_Switch = new System.Windows.Forms.Button();
+            this.button_Soft_PS4 = new System.Windows.Forms.Button();
+            this.button_Soft_PS5 = new System.Windows.Forms.Button();
+            this.button_Console = new System.Windows.Forms.Button();
             this.button_MainLogin = new System.Windows.Forms.Button();
             this.button_ChangeNewMember = new System.Windows.Forms.Button();
-            this.tabControl_OnlineGame = new System.Windows.Forms.TabControl();
-            this.tabControl_OnlineGameTab = new System.Windows.Forms.TabPage();
-            this.tabControl_OnlineDVDBDTab = new System.Windows.Forms.TabPage();
-            this.tabControl_OnlineCDTab = new System.Windows.Forms.TabPage();
-            this.tabControl_OnlineMobileTab = new System.Windows.Forms.TabPage();
-            this.tabControl_RentalGameTab = new System.Windows.Forms.TabControl();
-            this.tabControl_RentalNewRelease = new System.Windows.Forms.TabPage();
-            this.tabControl_RentalDVDBD = new System.Windows.Forms.TabPage();
-            this.tabControl_RentalCD = new System.Windows.Forms.TabPage();
-            this.tabControl_RentalComic = new System.Windows.Forms.TabPage();
             this.btnChengeDB = new System.Windows.Forms.Button();
             this.picTopPageIcon = new System.Windows.Forms.PictureBox();
-            this.tabControl_OnlineGame.SuspendLayout();
-            this.tabControl_RentalGameTab.SuspendLayout();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.groupBox_Logout = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button_Cart = new System.Windows.Forms.Button();
+            this.button_LogOut = new System.Windows.Forms.Button();
+            this.button_MyPage = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picTopPageIcon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.groupBox_Logout.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button_ChangeBuy
+            // button_Soft_Switch
             // 
-            this.button_ChangeBuy.Location = new System.Drawing.Point(30, 111);
-            this.button_ChangeBuy.Name = "button_ChangeBuy";
-            this.button_ChangeBuy.Size = new System.Drawing.Size(144, 37);
-            this.button_ChangeBuy.TabIndex = 0;
-            this.button_ChangeBuy.Text = "ネット・店舗で買う";
-            this.button_ChangeBuy.UseVisualStyleBackColor = true;
+            this.button_Soft_Switch.Location = new System.Drawing.Point(22, 89);
+            this.button_Soft_Switch.Margin = new System.Windows.Forms.Padding(2);
+            this.button_Soft_Switch.Name = "button_Soft_Switch";
+            this.button_Soft_Switch.Size = new System.Drawing.Size(108, 30);
+            this.button_Soft_Switch.TabIndex = 0;
+            this.button_Soft_Switch.Text = "Nintendo Switch";
+            this.button_Soft_Switch.UseVisualStyleBackColor = true;
             // 
-            // button_ChangeRental
+            // button_Soft_PS4
             // 
-            this.button_ChangeRental.Location = new System.Drawing.Point(30, 154);
-            this.button_ChangeRental.Name = "button_ChangeRental";
-            this.button_ChangeRental.Size = new System.Drawing.Size(144, 37);
-            this.button_ChangeRental.TabIndex = 2;
-            this.button_ChangeRental.Text = "宅配レンタル";
-            this.button_ChangeRental.UseVisualStyleBackColor = true;
+            this.button_Soft_PS4.Location = new System.Drawing.Point(22, 123);
+            this.button_Soft_PS4.Margin = new System.Windows.Forms.Padding(2);
+            this.button_Soft_PS4.Name = "button_Soft_PS4";
+            this.button_Soft_PS4.Size = new System.Drawing.Size(108, 30);
+            this.button_Soft_PS4.TabIndex = 2;
+            this.button_Soft_PS4.Text = "PlayStation 4";
+            this.button_Soft_PS4.UseVisualStyleBackColor = true;
             // 
-            // button_ChangePurchase
+            // button_Soft_PS5
             // 
-            this.button_ChangePurchase.Location = new System.Drawing.Point(30, 197);
-            this.button_ChangePurchase.Name = "button_ChangePurchase";
-            this.button_ChangePurchase.Size = new System.Drawing.Size(144, 37);
-            this.button_ChangePurchase.TabIndex = 3;
-            this.button_ChangePurchase.Text = "ネット・店舗で売る";
-            this.button_ChangePurchase.UseVisualStyleBackColor = true;
+            this.button_Soft_PS5.Location = new System.Drawing.Point(22, 158);
+            this.button_Soft_PS5.Margin = new System.Windows.Forms.Padding(2);
+            this.button_Soft_PS5.Name = "button_Soft_PS5";
+            this.button_Soft_PS5.Size = new System.Drawing.Size(108, 30);
+            this.button_Soft_PS5.TabIndex = 3;
+            this.button_Soft_PS5.Text = "PlayStation 5";
+            this.button_Soft_PS5.UseVisualStyleBackColor = true;
             // 
-            // label_OnlinePopular
+            // button_Console
             // 
-            this.label_OnlinePopular.AutoSize = true;
-            this.label_OnlinePopular.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label_OnlinePopular.Location = new System.Drawing.Point(255, 79);
-            this.label_OnlinePopular.Name = "label_OnlinePopular";
-            this.label_OnlinePopular.Size = new System.Drawing.Size(206, 20);
-            this.label_OnlinePopular.TabIndex = 10;
-            this.label_OnlinePopular.Text = "オンラインストア人気作品";
-            // 
-            // label_RentalPopular
-            // 
-            this.label_RentalPopular.AutoSize = true;
-            this.label_RentalPopular.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label_RentalPopular.Location = new System.Drawing.Point(255, 268);
-            this.label_RentalPopular.Name = "label_RentalPopular";
-            this.label_RentalPopular.Size = new System.Drawing.Size(189, 20);
-            this.label_RentalPopular.TabIndex = 11;
-            this.label_RentalPopular.Text = "宅配レンタル人気作品";
-            // 
-            // button_Notice
-            // 
-            this.button_Notice.Location = new System.Drawing.Point(30, 240);
-            this.button_Notice.Name = "button_Notice";
-            this.button_Notice.Size = new System.Drawing.Size(144, 37);
-            this.button_Notice.TabIndex = 12;
-            this.button_Notice.Text = "お知らせ";
-            this.button_Notice.UseVisualStyleBackColor = true;
+            this.button_Console.Location = new System.Drawing.Point(22, 192);
+            this.button_Console.Margin = new System.Windows.Forms.Padding(2);
+            this.button_Console.Name = "button_Console";
+            this.button_Console.Size = new System.Drawing.Size(108, 30);
+            this.button_Console.TabIndex = 12;
+            this.button_Console.Text = "ゲーム機本体";
+            this.button_Console.UseVisualStyleBackColor = true;
             // 
             // button_MainLogin
             // 
-            this.button_MainLogin.Location = new System.Drawing.Point(656, 23);
+            this.button_MainLogin.Location = new System.Drawing.Point(102, 10);
+            this.button_MainLogin.Margin = new System.Windows.Forms.Padding(2);
             this.button_MainLogin.Name = "button_MainLogin";
-            this.button_MainLogin.Size = new System.Drawing.Size(120, 25);
+            this.button_MainLogin.Size = new System.Drawing.Size(90, 20);
             this.button_MainLogin.TabIndex = 18;
             this.button_MainLogin.Text = "ログイン";
             this.button_MainLogin.UseVisualStyleBackColor = true;
@@ -122,125 +112,21 @@ namespace G2A132GameProgramForm
             // 
             // button_ChangeNewMember
             // 
-            this.button_ChangeNewMember.Location = new System.Drawing.Point(530, 23);
+            this.button_ChangeNewMember.Location = new System.Drawing.Point(8, 10);
+            this.button_ChangeNewMember.Margin = new System.Windows.Forms.Padding(2);
             this.button_ChangeNewMember.Name = "button_ChangeNewMember";
-            this.button_ChangeNewMember.Size = new System.Drawing.Size(120, 25);
+            this.button_ChangeNewMember.Size = new System.Drawing.Size(90, 20);
             this.button_ChangeNewMember.TabIndex = 19;
             this.button_ChangeNewMember.Text = "新規会員登録";
             this.button_ChangeNewMember.UseVisualStyleBackColor = true;
             this.button_ChangeNewMember.Click += new System.EventHandler(this.button_ChangeNewMember_Click);
             // 
-            // tabControl_OnlineGame
-            // 
-            this.tabControl_OnlineGame.Controls.Add(this.tabControl_OnlineGameTab);
-            this.tabControl_OnlineGame.Controls.Add(this.tabControl_OnlineDVDBDTab);
-            this.tabControl_OnlineGame.Controls.Add(this.tabControl_OnlineCDTab);
-            this.tabControl_OnlineGame.Controls.Add(this.tabControl_OnlineMobileTab);
-            this.tabControl_OnlineGame.ItemSize = new System.Drawing.Size(136, 21);
-            this.tabControl_OnlineGame.Location = new System.Drawing.Point(238, 102);
-            this.tabControl_OnlineGame.Name = "tabControl_OnlineGame";
-            this.tabControl_OnlineGame.SelectedIndex = 0;
-            this.tabControl_OnlineGame.Size = new System.Drawing.Size(550, 150);
-            this.tabControl_OnlineGame.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tabControl_OnlineGame.TabIndex = 20;
-            // 
-            // tabControl_OnlineGameTab
-            // 
-            this.tabControl_OnlineGameTab.BackColor = System.Drawing.Color.White;
-            this.tabControl_OnlineGameTab.Location = new System.Drawing.Point(4, 25);
-            this.tabControl_OnlineGameTab.Name = "tabControl_OnlineGameTab";
-            this.tabControl_OnlineGameTab.Padding = new System.Windows.Forms.Padding(3);
-            this.tabControl_OnlineGameTab.Size = new System.Drawing.Size(542, 121);
-            this.tabControl_OnlineGameTab.TabIndex = 0;
-            this.tabControl_OnlineGameTab.Text = "ゲーム";
-            // 
-            // tabControl_OnlineDVDBDTab
-            // 
-            this.tabControl_OnlineDVDBDTab.Location = new System.Drawing.Point(4, 25);
-            this.tabControl_OnlineDVDBDTab.Name = "tabControl_OnlineDVDBDTab";
-            this.tabControl_OnlineDVDBDTab.Padding = new System.Windows.Forms.Padding(3);
-            this.tabControl_OnlineDVDBDTab.Size = new System.Drawing.Size(542, 121);
-            this.tabControl_OnlineDVDBDTab.TabIndex = 1;
-            this.tabControl_OnlineDVDBDTab.Text = "DVD・ブルーレイ";
-            this.tabControl_OnlineDVDBDTab.UseVisualStyleBackColor = true;
-            // 
-            // tabControl_OnlineCDTab
-            // 
-            this.tabControl_OnlineCDTab.Location = new System.Drawing.Point(4, 25);
-            this.tabControl_OnlineCDTab.Name = "tabControl_OnlineCDTab";
-            this.tabControl_OnlineCDTab.Padding = new System.Windows.Forms.Padding(3);
-            this.tabControl_OnlineCDTab.Size = new System.Drawing.Size(542, 121);
-            this.tabControl_OnlineCDTab.TabIndex = 2;
-            this.tabControl_OnlineCDTab.Text = "CD";
-            this.tabControl_OnlineCDTab.UseVisualStyleBackColor = true;
-            // 
-            // tabControl_OnlineMobileTab
-            // 
-            this.tabControl_OnlineMobileTab.Location = new System.Drawing.Point(4, 25);
-            this.tabControl_OnlineMobileTab.Name = "tabControl_OnlineMobileTab";
-            this.tabControl_OnlineMobileTab.Size = new System.Drawing.Size(542, 121);
-            this.tabControl_OnlineMobileTab.TabIndex = 3;
-            this.tabControl_OnlineMobileTab.Text = "モバイル";
-            this.tabControl_OnlineMobileTab.UseVisualStyleBackColor = true;
-            // 
-            // tabControl_RentalGameTab
-            // 
-            this.tabControl_RentalGameTab.Controls.Add(this.tabControl_RentalNewRelease);
-            this.tabControl_RentalGameTab.Controls.Add(this.tabControl_RentalDVDBD);
-            this.tabControl_RentalGameTab.Controls.Add(this.tabControl_RentalCD);
-            this.tabControl_RentalGameTab.Controls.Add(this.tabControl_RentalComic);
-            this.tabControl_RentalGameTab.ItemSize = new System.Drawing.Size(136, 21);
-            this.tabControl_RentalGameTab.Location = new System.Drawing.Point(238, 291);
-            this.tabControl_RentalGameTab.Name = "tabControl_RentalGameTab";
-            this.tabControl_RentalGameTab.SelectedIndex = 0;
-            this.tabControl_RentalGameTab.Size = new System.Drawing.Size(550, 150);
-            this.tabControl_RentalGameTab.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tabControl_RentalGameTab.TabIndex = 21;
-            // 
-            // tabControl_RentalNewRelease
-            // 
-            this.tabControl_RentalNewRelease.Location = new System.Drawing.Point(4, 25);
-            this.tabControl_RentalNewRelease.Name = "tabControl_RentalNewRelease";
-            this.tabControl_RentalNewRelease.Padding = new System.Windows.Forms.Padding(3);
-            this.tabControl_RentalNewRelease.Size = new System.Drawing.Size(542, 121);
-            this.tabControl_RentalNewRelease.TabIndex = 0;
-            this.tabControl_RentalNewRelease.Text = "Newリリース";
-            this.tabControl_RentalNewRelease.UseVisualStyleBackColor = true;
-            // 
-            // tabControl_RentalDVDBD
-            // 
-            this.tabControl_RentalDVDBD.Location = new System.Drawing.Point(4, 25);
-            this.tabControl_RentalDVDBD.Name = "tabControl_RentalDVDBD";
-            this.tabControl_RentalDVDBD.Padding = new System.Windows.Forms.Padding(3);
-            this.tabControl_RentalDVDBD.Size = new System.Drawing.Size(542, 121);
-            this.tabControl_RentalDVDBD.TabIndex = 1;
-            this.tabControl_RentalDVDBD.Text = "DVD・ブルーレイ";
-            this.tabControl_RentalDVDBD.UseVisualStyleBackColor = true;
-            // 
-            // tabControl_RentalCD
-            // 
-            this.tabControl_RentalCD.Location = new System.Drawing.Point(4, 25);
-            this.tabControl_RentalCD.Name = "tabControl_RentalCD";
-            this.tabControl_RentalCD.Padding = new System.Windows.Forms.Padding(3);
-            this.tabControl_RentalCD.Size = new System.Drawing.Size(542, 121);
-            this.tabControl_RentalCD.TabIndex = 2;
-            this.tabControl_RentalCD.Text = "CD";
-            this.tabControl_RentalCD.UseVisualStyleBackColor = true;
-            // 
-            // tabControl_RentalComic
-            // 
-            this.tabControl_RentalComic.Location = new System.Drawing.Point(4, 25);
-            this.tabControl_RentalComic.Name = "tabControl_RentalComic";
-            this.tabControl_RentalComic.Size = new System.Drawing.Size(542, 121);
-            this.tabControl_RentalComic.TabIndex = 3;
-            this.tabControl_RentalComic.Text = "コミック";
-            this.tabControl_RentalComic.UseVisualStyleBackColor = true;
-            // 
             // btnChengeDB
             // 
-            this.btnChengeDB.Location = new System.Drawing.Point(30, 375);
+            this.btnChengeDB.Location = new System.Drawing.Point(22, 300);
+            this.btnChengeDB.Margin = new System.Windows.Forms.Padding(2);
             this.btnChengeDB.Name = "btnChengeDB";
-            this.btnChengeDB.Size = new System.Drawing.Size(126, 44);
+            this.btnChengeDB.Size = new System.Drawing.Size(94, 35);
             this.btnChengeDB.TabIndex = 22;
             this.btnChengeDB.Text = "わいわいボタン";
             this.btnChengeDB.UseVisualStyleBackColor = true;
@@ -248,63 +134,173 @@ namespace G2A132GameProgramForm
             // 
             // picTopPageIcon
             // 
-            this.picTopPageIcon.Location = new System.Drawing.Point(12, 12);
+            this.picTopPageIcon.Location = new System.Drawing.Point(9, 10);
+            this.picTopPageIcon.Margin = new System.Windows.Forms.Padding(2);
             this.picTopPageIcon.Name = "picTopPageIcon";
-            this.picTopPageIcon.Size = new System.Drawing.Size(144, 73);
+            this.picTopPageIcon.Size = new System.Drawing.Size(108, 58);
             this.picTopPageIcon.TabIndex = 1;
             this.picTopPageIcon.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(210, 138);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(86, 50);
+            this.pictureBox1.TabIndex = 23;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(317, 138);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(86, 50);
+            this.pictureBox2.TabIndex = 24;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(428, 138);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(86, 50);
+            this.pictureBox3.TabIndex = 25;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(210, 232);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(86, 50);
+            this.pictureBox4.TabIndex = 26;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Location = new System.Drawing.Point(317, 232);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(86, 50);
+            this.pictureBox5.TabIndex = 27;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(428, 232);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(86, 50);
+            this.pictureBox6.TabIndex = 28;
+            this.pictureBox6.TabStop = false;
+            // 
+            // groupBox_Logout
+            // 
+            this.groupBox_Logout.Controls.Add(this.button_ChangeNewMember);
+            this.groupBox_Logout.Controls.Add(this.button_MainLogin);
+            this.groupBox_Logout.Location = new System.Drawing.Point(390, 8);
+            this.groupBox_Logout.Name = "groupBox_Logout";
+            this.groupBox_Logout.Size = new System.Drawing.Size(200, 40);
+            this.groupBox_Logout.TabIndex = 29;
+            this.groupBox_Logout.TabStop = false;
+            this.groupBox_Logout.Text = "非ログイン時";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button_MyPage);
+            this.groupBox1.Controls.Add(this.button_LogOut);
+            this.groupBox1.Controls.Add(this.button_Cart);
+            this.groupBox1.Location = new System.Drawing.Point(292, 8);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(298, 40);
+            this.groupBox1.TabIndex = 30;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "ログイン時";
+            this.groupBox1.Visible = false;
+            // 
+            // button_Cart
+            // 
+            this.button_Cart.Location = new System.Drawing.Point(106, 15);
+            this.button_Cart.Margin = new System.Windows.Forms.Padding(2);
+            this.button_Cart.Name = "button_Cart";
+            this.button_Cart.Size = new System.Drawing.Size(90, 20);
+            this.button_Cart.TabIndex = 20;
+            this.button_Cart.Text = "カート";
+            this.button_Cart.UseVisualStyleBackColor = true;
+            // 
+            // button_LogOut
+            // 
+            this.button_LogOut.Location = new System.Drawing.Point(200, 15);
+            this.button_LogOut.Margin = new System.Windows.Forms.Padding(2);
+            this.button_LogOut.Name = "button_LogOut";
+            this.button_LogOut.Size = new System.Drawing.Size(90, 20);
+            this.button_LogOut.TabIndex = 21;
+            this.button_LogOut.Text = "ログアウト";
+            this.button_LogOut.UseVisualStyleBackColor = true;
+            // 
+            // button_MyPage
+            // 
+            this.button_MyPage.Location = new System.Drawing.Point(12, 15);
+            this.button_MyPage.Margin = new System.Windows.Forms.Padding(2);
+            this.button_MyPage.Name = "button_MyPage";
+            this.button_MyPage.Size = new System.Drawing.Size(90, 20);
+            this.button_MyPage.TabIndex = 22;
+            this.button_MyPage.Text = "マイページ";
+            this.button_MyPage.UseVisualStyleBackColor = true;
+            // 
             // Main_Page
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(802, 453);
+            this.ClientSize = new System.Drawing.Size(602, 362);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox_Logout);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnChengeDB);
-            this.Controls.Add(this.tabControl_RentalGameTab);
-            this.Controls.Add(this.tabControl_OnlineGame);
-            this.Controls.Add(this.button_ChangeNewMember);
-            this.Controls.Add(this.button_MainLogin);
-            this.Controls.Add(this.button_Notice);
-            this.Controls.Add(this.label_RentalPopular);
-            this.Controls.Add(this.label_OnlinePopular);
-            this.Controls.Add(this.button_ChangePurchase);
-            this.Controls.Add(this.button_ChangeRental);
+            this.Controls.Add(this.button_Console);
+            this.Controls.Add(this.button_Soft_PS5);
+            this.Controls.Add(this.button_Soft_PS4);
             this.Controls.Add(this.picTopPageIcon);
-            this.Controls.Add(this.button_ChangeBuy);
+            this.Controls.Add(this.button_Soft_Switch);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Main_Page";
             this.Text = "メインページ";
             this.Load += new System.EventHandler(this.MainPage_Load);
-            this.tabControl_OnlineGame.ResumeLayout(false);
-            this.tabControl_RentalGameTab.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picTopPageIcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.groupBox_Logout.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button_ChangeBuy;
+        private System.Windows.Forms.Button button_Soft_Switch;
         private System.Windows.Forms.PictureBox picTopPageIcon;
-        private System.Windows.Forms.Button button_ChangeRental;
-        private System.Windows.Forms.Button button_ChangePurchase;
-        private System.Windows.Forms.Label label_OnlinePopular;
-        private System.Windows.Forms.Label label_RentalPopular;
-        private System.Windows.Forms.Button button_Notice;
+        private System.Windows.Forms.Button button_Soft_PS4;
+        private System.Windows.Forms.Button button_Soft_PS5;
+        private System.Windows.Forms.Button button_Console;
         private System.Windows.Forms.Button button_MainLogin;
         private System.Windows.Forms.Button button_ChangeNewMember;
-        private System.Windows.Forms.TabControl tabControl_OnlineGame;
-        private System.Windows.Forms.TabPage tabControl_OnlineGameTab;
-        private System.Windows.Forms.TabPage tabControl_OnlineDVDBDTab;
-        private System.Windows.Forms.TabPage tabControl_OnlineCDTab;
-        private System.Windows.Forms.TabPage tabControl_OnlineMobileTab;
-        private System.Windows.Forms.TabControl tabControl_RentalGameTab;
-        private System.Windows.Forms.TabPage tabControl_RentalNewRelease;
-        private System.Windows.Forms.TabPage tabControl_RentalDVDBD;
-        private System.Windows.Forms.TabPage tabControl_RentalCD;
-        private System.Windows.Forms.TabPage tabControl_RentalComic;
         private System.Windows.Forms.Button btnChengeDB;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.GroupBox groupBox_Logout;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button_MyPage;
+        private System.Windows.Forms.Button button_LogOut;
+        private System.Windows.Forms.Button button_Cart;
     }
 }
 
