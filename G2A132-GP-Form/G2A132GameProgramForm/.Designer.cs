@@ -1,5 +1,5 @@
 ﻿
-namespace G2A132_GP_Form
+namespace G2A132GameProgramForm
 {
     partial class DBProduction
     {

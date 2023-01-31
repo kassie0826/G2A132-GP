@@ -25,10 +25,10 @@ namespace G2A132GameProgramForm.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string MemberID {
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int MemberID {
             get {
-                return ((string)(this["MemberID"]));
+                return ((int)(this["MemberID"]));
             }
             set {
                 this["MemberID"] = value;
@@ -37,10 +37,10 @@ namespace G2A132GameProgramForm.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("000")]
-        public string ManagerID {
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int ManagerID {
             get {
-                return ((string)(this["ManagerID"]));
+                return ((int)(this["ManagerID"]));
             }
         }
     }

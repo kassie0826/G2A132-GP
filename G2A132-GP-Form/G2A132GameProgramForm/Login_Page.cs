@@ -39,19 +39,41 @@ namespace G2A132GameProgramForm
             }
             //Properties.Settings.Default.MemberID
             //Properties.Settings.Default.ManagerID
+            using (SQLiteConnection login = new SQLiteConnection("Data Source=GEO.db"))
+            {
+                DataTable dt = new DataTable();
+                SQLiteDataAdapter da = new SQLiteDataAdapter("SELECT MemberID FROM member_info WHERE MemberID = " + int.Parse(textBox_MemberID.Text), login);
+                da.Fill(dt);
+                if (dt.Rows.Count == 0)
+                {
+                    MessageBox.Show("そのIDは存在しません。", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    return;
+                }
+                int id = int.Parse(textBox_MemberID.Text);
 
-            //DialogResult successLogin = MessageBox.Show("登録が完了しました。\n会員ID : " + textBox_MemberID.Text + "\n\nメインページへ戻ります。", "登録完了", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-            //if (successLogin == DialogResult.OK)
-            //{
-            // メインページをメインフォームに設定
-            //    Program.SetMainForm(new Main_Page());
-            // 現在のメインフォームを取得 (直前で設定したフォーム)
-            //    Form mainPageOpen = Program.GetMainForm();
-            // メインページを開く
-            //    mainPageOpen.Show();
-            // 新規会員登録ページを閉じる
-            //    this.Close();
-            //}
+                dt = new DataTable();
+                da = new SQLiteDataAdapter("SELECT * FROM member_info WHERE MemberID = " + id + " AND MemberPassword = '" + textBox_Password.Text + "'", login);
+                da.Fill(dt);
+                if (dt.Rows.Count == 0)
+                {
+                    MessageBox.Show("パスワードが一致しません。", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    return;
+                }
+
+                Properties.Settings.Default.MemberID = id;
+                DialogResult successLogin = MessageBox.Show("ログインに成功しました。\nメインページへ戻ります。", "ログイン成功", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                if (successLogin == DialogResult.OK)
+                {
+                    // メインページをメインフォームに設定
+                    Program.SetMainForm(new Main_Page());
+                    // 現在のメインフォームを取得 (直前で設定したフォーム)
+                    Form mainPageOpen = Program.GetMainForm();
+                    // メインページを開く
+                    mainPageOpen.Show();
+                    // 新規会員登録ページを閉じる
+                    this.Close();
+                }
+            }
         }
 
         private void button_DispalySwitching_Click(object sender, EventArgs e)

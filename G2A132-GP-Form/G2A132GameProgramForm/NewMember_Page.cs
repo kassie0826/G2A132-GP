@@ -40,13 +40,12 @@ namespace G2A132GameProgramForm
         };
 
         //2ページ目の入力項目を文字列で格納する配列
-        string[] _newMemberInfoVolume2 = new string[5] 
+        string[] _newMemberInfoVolume2 = new string[4] 
         { 
             "",                              // 0
             "textBox_EmailAddress",          // 1
-            "textBox_MemberID",              // 2
-            "textBox_Password",              // 3
-            "textBox_PasswordReconfirmation" // 4
+            "textBox_Password",              // 2
+            "textBox_PasswordReconfirmation" // 3
         };
 
         /// <summary>
@@ -100,7 +99,6 @@ namespace G2A132GameProgramForm
             textBox_PhoneNumberMiddle.ShortcutsEnabled = false;
             textBox_PhoneNumberEnd.ShortcutsEnabled = false;
             textBox_EmailAddress.ShortcutsEnabled = false;
-            textBox_MemberID.ShortcutsEnabled = false;
             textBox_Password.ShortcutsEnabled = false;
             textBox_PasswordReconfirmation.ShortcutsEnabled = false;
             #endregion
@@ -327,7 +325,7 @@ namespace G2A132GameProgramForm
         private void button_NewMemberRegister_Click(object sender, EventArgs e)
         {
             // 2ページ目未入力の
-            int[] emptyPositionInfoVolume2 = new int[4];
+            int[] emptyPositionInfoVolume2 = new int[3];
             // 2ページ目の入力項目
             for (int i = 1, c = 0; i < _newMemberInfoVolume2.Length; i++)
             {
@@ -348,12 +346,9 @@ namespace G2A132GameProgramForm
                             emptyMessageInfoVolume2 += "・メールアドレス\n";
                             break;
                         case 2:
-                            emptyMessageInfoVolume2 += "・会員ID\n";
-                            break;
-                        case 3:
                             emptyMessageInfoVolume2 += "・パスワード\n";
                             break;
-                        case 4:
+                        case 3:
                             emptyMessageInfoVolume2 += "・パスワード (確認)\n";
                             break;
                     }
@@ -365,33 +360,12 @@ namespace G2A132GameProgramForm
                 // 登録処理
                 using (SQLiteConnection registerSQL = new SQLiteConnection("Data Source=GEO.db"))
                 {
-                    DataTable dataTableIDCheck = new DataTable();
-                    SQLiteDataAdapter adapterRegisterCheck = new SQLiteDataAdapter($"SELECT EXISTS(SELECT CD FROM member_info WHERE MemberID = {textBox_MemberID.Text} LIMIT 1) AS IDCheck", registerSQL);
-                    adapterRegisterCheck.Fill(dataTableIDCheck);
-                    Console.WriteLine(dataTableIDCheck.Rows[0]["IDCheck"].ToString());
-                    if (int.Parse(dataTableIDCheck.Rows[0]["IDCheck"].ToString()) != 0)
-                    {
-                        MessageBox.Show("入力された会員IDは既に使用されています。", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                        return;
-                    }
-                    DataTable dataTableEmailCheck = new DataTable();
-                    adapterRegisterCheck = new SQLiteDataAdapter($"SELECT EXISTS(SELECT * FROM member_info WHERE MemberEmailAddress = {textBox_EmailAddress.Text} LIMIT 1) AS EmailCheck", registerSQL);
-                    adapterRegisterCheck.Fill(dataTableEmailCheck);
-                    Console.WriteLine(dataTableEmailCheck.Rows[0]["EmailCheck"].ToString());
-                    if (int.Parse(dataTableEmailCheck.Rows[0]["EmailCheck"].ToString()) != 0)
-                    {
-                        MessageBox.Show("入力されたメールアドレスは既に使用されています。", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                        return;
-                    }
-
-
                     registerSQL.Open();
                     using (SQLiteCommand command = registerSQL.CreateCommand())
                     {
                         command.CommandText = "insert or ignore into " +
-                        "member_info(MemberID, MemberPassword, MemberLastName, MemberFirstName, MemberFuriganaLastName, MemberFuriganaFirstName, MemberBirthYear, MemberBirthMonth, MemberBirthDate, MemberAddress, MemberPhoneNumberLead, MemberPhoneNumberMiddle, MemberPhoneNumberEnd, MemberEmailAddress) " +
-                        "VALUES (@id, @password, @lastname, @firstname, @furiganalastname, @furiganafirstname, @birthyear, @birthmonth, @birthdate, @address, @phonenumberlead, @phonenumbermiddle, @phonenumberend, @emailaddress)";
-                        command.Parameters.Add("id", System.Data.DbType.String);
+                        "member_info(MemberPassword, MemberLastName, MemberFirstName, MemberFuriganaLastName, MemberFuriganaFirstName, MemberBirthYear, MemberBirthMonth, MemberBirthDate, MemberAddress, MemberPhoneNumberLead, MemberPhoneNumberMiddle, MemberPhoneNumberEnd, MemberEmailAddress) " +
+                        "VALUES (@password, @lastname, @firstname, @furiganalastname, @furiganafirstname, @birthyear, @birthmonth, @birthdate, @address, @phonenumberlead, @phonenumbermiddle, @phonenumberend, @emailaddress)";
                         command.Parameters.Add("password", System.Data.DbType.String);
                         command.Parameters.Add("lastname", System.Data.DbType.String);
                         command.Parameters.Add("firstname", System.Data.DbType.String);
@@ -406,7 +380,6 @@ namespace G2A132GameProgramForm
                         command.Parameters.Add("phonenumberend", System.Data.DbType.String);
                         command.Parameters.Add("emailaddress", System.Data.DbType.String);
 
-                        command.Parameters["id"].Value = textBox_MemberID.Text;
                         command.Parameters["password"].Value = textBox_Password.Text;
                         command.Parameters["lastname"].Value = textBox_LastName.Text;
                         command.Parameters["firstname"].Value = textBox_FirstName.Text;
@@ -416,25 +389,31 @@ namespace G2A132GameProgramForm
                         command.Parameters["birthmonth"].Value = int.Parse(comboBox_BirthMonth.Text);
                         command.Parameters["birthdate"].Value = int.Parse(textBox_BirthDate.Text);
                         command.Parameters["address"].Value = textBox_Address.Text;
-                        command.Parameters["phonenumberlead"].Value = textBox_PhoneNumberLead;
-                        command.Parameters["phonenumbermiddle"].Value = textBox_PhoneNumberMiddle;
-                        command.Parameters["phonenumberend"].Value = textBox_PhoneNumberEnd.Text;
+                        command.Parameters["phonenumberlead"].Value = int.Parse(textBox_PhoneNumberLead.Text);
+                        command.Parameters["phonenumbermiddle"].Value = int.Parse(textBox_PhoneNumberMiddle.Text);
+                        command.Parameters["phonenumberend"].Value = int.Parse(textBox_PhoneNumberEnd.Text);
                         command.Parameters["emailaddress"].Value = textBox_EmailAddress.Text;
                         command.ExecuteNonQuery();
                     }
                     registerSQL.Close();
-                }
-                DialogResult successRegister = MessageBox.Show("登録が完了しました。\n会員ID : " + textBox_MemberID.Text + "\n\nメインページへ戻ります。", "登録完了", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                if (successRegister == DialogResult.OK)
-                {
-                    // メインページをメインフォームに設定
-                    Program.SetMainForm(new Main_Page());
-                    // 現在のメインフォームを取得 (直前で設定したフォーム)
-                    Form mainPageOpen = Program.GetMainForm();
-                    // メインページを開く
-                    mainPageOpen.Show();
-                    // 新規会員登録ページを閉じる
-                    this.Close();
+
+                    DataTable dt = new DataTable();
+                    SQLiteDataAdapter da = new SQLiteDataAdapter("SELECT max(MemberID) FROM member_info", registerSQL);
+                    da.Fill(dt);
+                    string id = dt.Rows[0][0].ToString();
+
+                    DialogResult successRegister = MessageBox.Show("登録が完了しました。\n会員ID : " + id + "\n\nメインページへ戻ります。", "登録完了", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    if (successRegister == DialogResult.OK)
+                    {
+                        // メインページをメインフォームに設定
+                        Program.SetMainForm(new Main_Page());
+                        // 現在のメインフォームを取得 (直前で設定したフォーム)
+                        Form mainPageOpen = Program.GetMainForm();
+                        // メインページを開く
+                        mainPageOpen.Show();
+                        // 新規会員登録ページを閉じる
+                        this.Close();
+                    }
                 }
             }
         }

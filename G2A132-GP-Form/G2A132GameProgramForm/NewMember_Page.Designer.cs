@@ -61,14 +61,10 @@ namespace G2A132GameProgramForm
             this.button_NewMemberRegister = new System.Windows.Forms.Button();
             this.label_EmailAddress = new System.Windows.Forms.Label();
             this.textBox_EmailAddress = new System.Windows.Forms.TextBox();
-            this.label_PasswordNotes = new System.Windows.Forms.Label();
             this.textBox_PasswordReconfirmation = new System.Windows.Forms.TextBox();
             this.label_PasswordReconfirmation = new System.Windows.Forms.Label();
             this.textBox_Password = new System.Windows.Forms.TextBox();
             this.label_Password = new System.Windows.Forms.Label();
-            this.label_MemberIDNotes = new System.Windows.Forms.Label();
-            this.textBox_MemberID = new System.Windows.Forms.TextBox();
-            this.label_MemberID = new System.Windows.Forms.Label();
             this.groupBox_InfoVolume1.SuspendLayout();
             this.groupBox_InfoVolume2.SuspendLayout();
             this.SuspendLayout();
@@ -366,14 +362,10 @@ namespace G2A132GameProgramForm
             this.groupBox_InfoVolume2.Controls.Add(this.button_NewMemberRegister);
             this.groupBox_InfoVolume2.Controls.Add(this.label_EmailAddress);
             this.groupBox_InfoVolume2.Controls.Add(this.textBox_EmailAddress);
-            this.groupBox_InfoVolume2.Controls.Add(this.label_PasswordNotes);
             this.groupBox_InfoVolume2.Controls.Add(this.textBox_PasswordReconfirmation);
             this.groupBox_InfoVolume2.Controls.Add(this.label_PasswordReconfirmation);
             this.groupBox_InfoVolume2.Controls.Add(this.textBox_Password);
             this.groupBox_InfoVolume2.Controls.Add(this.label_Password);
-            this.groupBox_InfoVolume2.Controls.Add(this.label_MemberIDNotes);
-            this.groupBox_InfoVolume2.Controls.Add(this.textBox_MemberID);
-            this.groupBox_InfoVolume2.Controls.Add(this.label_MemberID);
             this.groupBox_InfoVolume2.Location = new System.Drawing.Point(45, 77);
             this.groupBox_InfoVolume2.Name = "groupBox_InfoVolume2";
             this.groupBox_InfoVolume2.Size = new System.Drawing.Size(706, 352);
@@ -407,7 +399,7 @@ namespace G2A132GameProgramForm
             // 
             this.label_EmailAddress.AutoSize = true;
             this.label_EmailAddress.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label_EmailAddress.Location = new System.Drawing.Point(55, 34);
+            this.label_EmailAddress.Location = new System.Drawing.Point(100, 62);
             this.label_EmailAddress.Name = "label_EmailAddress";
             this.label_EmailAddress.Size = new System.Drawing.Size(99, 17);
             this.label_EmailAddress.TabIndex = 9;
@@ -417,24 +409,15 @@ namespace G2A132GameProgramForm
             // 
             this.textBox_EmailAddress.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox_EmailAddress.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.textBox_EmailAddress.Location = new System.Drawing.Point(161, 31);
+            this.textBox_EmailAddress.Location = new System.Drawing.Point(217, 59);
             this.textBox_EmailAddress.Name = "textBox_EmailAddress";
             this.textBox_EmailAddress.Size = new System.Drawing.Size(300, 24);
             this.textBox_EmailAddress.TabIndex = 0;
             // 
-            // label_PasswordNotes
-            // 
-            this.label_PasswordNotes.AutoSize = true;
-            this.label_PasswordNotes.Location = new System.Drawing.Point(177, 193);
-            this.label_PasswordNotes.Name = "label_PasswordNotes";
-            this.label_PasswordNotes.Size = new System.Drawing.Size(191, 15);
-            this.label_PasswordNotes.TabIndex = 14;
-            this.label_PasswordNotes.Text = "※英数8～16文字、記号不可";
-            // 
             // textBox_PasswordReconfirmation
             // 
             this.textBox_PasswordReconfirmation.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox_PasswordReconfirmation.Location = new System.Drawing.Point(161, 222);
+            this.textBox_PasswordReconfirmation.Location = new System.Drawing.Point(246, 200);
             this.textBox_PasswordReconfirmation.Name = "textBox_PasswordReconfirmation";
             this.textBox_PasswordReconfirmation.Size = new System.Drawing.Size(200, 24);
             this.textBox_PasswordReconfirmation.TabIndex = 3;
@@ -443,7 +426,7 @@ namespace G2A132GameProgramForm
             // 
             this.label_PasswordReconfirmation.AutoSize = true;
             this.label_PasswordReconfirmation.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label_PasswordReconfirmation.Location = new System.Drawing.Point(32, 225);
+            this.label_PasswordReconfirmation.Location = new System.Drawing.Point(117, 203);
             this.label_PasswordReconfirmation.Name = "label_PasswordReconfirmation";
             this.label_PasswordReconfirmation.Size = new System.Drawing.Size(123, 17);
             this.label_PasswordReconfirmation.TabIndex = 13;
@@ -452,7 +435,7 @@ namespace G2A132GameProgramForm
             // textBox_Password
             // 
             this.textBox_Password.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox_Password.Location = new System.Drawing.Point(161, 159);
+            this.textBox_Password.Location = new System.Drawing.Point(246, 137);
             this.textBox_Password.Name = "textBox_Password";
             this.textBox_Password.Size = new System.Drawing.Size(200, 24);
             this.textBox_Password.TabIndex = 2;
@@ -461,38 +444,11 @@ namespace G2A132GameProgramForm
             // 
             this.label_Password.AutoSize = true;
             this.label_Password.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label_Password.Location = new System.Drawing.Point(81, 162);
+            this.label_Password.Location = new System.Drawing.Point(166, 140);
             this.label_Password.Name = "label_Password";
             this.label_Password.Size = new System.Drawing.Size(74, 17);
             this.label_Password.TabIndex = 12;
             this.label_Password.Text = "パスワード";
-            // 
-            // label_MemberIDNotes
-            // 
-            this.label_MemberIDNotes.AutoSize = true;
-            this.label_MemberIDNotes.Location = new System.Drawing.Point(177, 112);
-            this.label_MemberIDNotes.Name = "label_MemberIDNotes";
-            this.label_MemberIDNotes.Size = new System.Drawing.Size(191, 15);
-            this.label_MemberIDNotes.TabIndex = 11;
-            this.label_MemberIDNotes.Text = "※英数6～16文字、記号不可";
-            // 
-            // textBox_MemberID
-            // 
-            this.textBox_MemberID.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox_MemberID.Location = new System.Drawing.Point(161, 79);
-            this.textBox_MemberID.Name = "textBox_MemberID";
-            this.textBox_MemberID.Size = new System.Drawing.Size(200, 24);
-            this.textBox_MemberID.TabIndex = 1;
-            // 
-            // label_MemberID
-            // 
-            this.label_MemberID.AutoSize = true;
-            this.label_MemberID.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label_MemberID.Location = new System.Drawing.Point(98, 82);
-            this.label_MemberID.Name = "label_MemberID";
-            this.label_MemberID.Size = new System.Drawing.Size(57, 17);
-            this.label_MemberID.TabIndex = 10;
-            this.label_MemberID.Text = "会員ID";
             // 
             // NewMember_Page
             // 
@@ -541,14 +497,10 @@ namespace G2A132GameProgramForm
         private System.Windows.Forms.Button button_BackMainPage;
         private System.Windows.Forms.GroupBox groupBox_InfoVolume1;
         private System.Windows.Forms.GroupBox groupBox_InfoVolume2;
-        private System.Windows.Forms.Label label_MemberID;
-        private System.Windows.Forms.Label label_MemberIDNotes;
-        private System.Windows.Forms.TextBox textBox_MemberID;
         private System.Windows.Forms.Label label_Password;
         private System.Windows.Forms.TextBox textBox_Password;
         private System.Windows.Forms.Label label_PasswordReconfirmation;
         private System.Windows.Forms.TextBox textBox_PasswordReconfirmation;
-        private System.Windows.Forms.Label label_PasswordNotes;
         private System.Windows.Forms.Label label_EmailAddress;
         private System.Windows.Forms.TextBox textBox_EmailAddress;
         private System.Windows.Forms.Button button_BackInfoVolume1;
